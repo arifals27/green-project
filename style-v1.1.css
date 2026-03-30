@@ -654,7 +654,7 @@ body {
 .btn-menu {
   position: absolute;
   top: 20px;
-  right: 20px;
+  left: 20px;
   background: rgba(255,255,255,0.2);
   backdrop-filter: blur(8px);
   border: 1px solid rgba(255,255,255,0.4);
@@ -702,23 +702,30 @@ body {
 }
 
 .sidebar-header {
-  padding: 30px 20px 20px;
+  padding: 40px 20px 20px;
   display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   background: var(--green-light);
   border-bottom: 1px solid #E0E0E0;
+  position: relative;
 }
 
 .sidebar-logo {
-  width: 80px;
+  width: 130px;
   height: auto;
+  margin-bottom: 10px;
+  filter: drop-shadow(0 2px 4px rgba(0,0,0,0.1));
 }
 
 .btn-close-sidebar {
+  position: absolute;
+  top: 16px;
+  right: 16px;
   background: transparent;
   border: none;
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   color: var(--text-main);
   cursor: pointer;
 }
