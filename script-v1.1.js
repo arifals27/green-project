@@ -36,7 +36,7 @@ function renderCards(data) {
     const html = data.map(item => `
         <article class="ecocard" onclick="openDetail('${item.id}')">
             <div class="card-image-wrapper">
-                <img src="${item.image}" alt="${item.name}">
+                <img src="${item.image}" alt="${item.name}" loading="lazy">
                 <span class="badge text-${item.badge.color}"><i class="fa-solid ${item.badge.icon}"></i> ${item.badge.text}</span>
             </div>
             <div class="card-content">
@@ -95,7 +95,7 @@ async function initDetailPage() {
         <div class="species-grid">
             ${data.flora.map(item => `
                 <div class="species-card">
-                    <img src="${item.image}" alt="${item.latin}" onclick="openLightbox(this.src)" style="cursor: pointer;">
+                    <img src="${item.image}" alt="${item.latin}" loading="lazy" onclick="openLightbox(this.src)" style="cursor: pointer;">
                     <p>${item.latin}</p>
                 </div>
             `).join('')}
@@ -108,7 +108,7 @@ async function initDetailPage() {
         <div class="species-grid">
             ${data.fauna.map(item => `
                 <div class="species-card">
-                    <img src="${item.image}" alt="${item.latin}" onclick="openLightbox(this.src)" style="cursor: pointer;">
+                    <img src="${item.image}" alt="${item.latin}" loading="lazy" onclick="openLightbox(this.src)" style="cursor: pointer;">
                     <p>${item.latin}</p>
                 </div>
             `).join('')}
@@ -145,7 +145,7 @@ async function initDetailPage() {
 
             ${data.wisdom.image ? `
             <div style="margin-bottom: 16px;">
-                <img src="${data.wisdom.image}" alt="${data.wisdom.title}" onclick="openLightbox(this.src)" style="width: 100%; border-radius: 8px; object-fit: cover; max-height: 250px; cursor: pointer;">
+                <img src="${data.wisdom.image}" alt="${data.wisdom.title}" loading="lazy" onclick="openLightbox(this.src)" style="width: 100%; border-radius: 8px; object-fit: cover; max-height: 250px; cursor: pointer;">
                 ${data.wisdom.credit ? `
                 <p style="font-size: 0.75rem; color: #757575; text-align: right; margin-top: 4px; margin-bottom: 0;">
                     Credit photo: <a href="${data.wisdom.credit.url}" target="_blank" style="color: #2E8B57; text-decoration: none;">${data.wisdom.credit.text}</a>
