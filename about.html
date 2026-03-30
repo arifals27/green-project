@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcoMap Malang Raya - Tentang Kami</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+<div class="app-container">
+
+    <!-- SIDEBAR MENU -->
+    <div id="sidebarOverlay" class="sidebar-overlay"></div>
+    <nav id="sidebarMenu" class="sidebar-menu">
+        <div class="sidebar-header">
+            <img src="Images/Lambang-UM.webp" alt="Lambang UM" class="sidebar-logo">
+            <button id="closeSidebarBtn" class="btn-close-sidebar"><i class="fa-solid fa-xmark"></i></button>
+        </div>
+        <div class="sidebar-content">
+            <a href="#" class="sidebar-item"><i class="fa-solid fa-book"></i> Petunjuk Penggunaan</a>
+            <a href="index.html" class="sidebar-item"><i class="fa-solid fa-map-location-dot"></i> Info Lokasi</a>
+            <a href="about.html" class="sidebar-item"><i class="fa-solid fa-circle-info"></i> Tentang Kami</a>
+            <a href="#" class="sidebar-item"><i class="fa-solid fa-comment-dots"></i> Feedback</a>
+        </div>
+        <div class="sidebar-footer">
+            <p><strong>Kelompok 1 Pembelajaran STEM Interdisiplin</strong></p>
+            <p>Biodiversity-Based Ecotourism Mapping</p>
+            <div style="height: 12px;"></div>
+            <p><strong>S2 Pendidikan Biologi</strong></p>
+            <p>Universitas Negeri Malang</p>
+        </div>
+    </nav>
+
+    <!-- HEADER -->
+    <header class="hero-header" style="height: 200px;">
+        <div class="header-overlay"></div>
+        <button id="openSidebarBtn" class="btn-menu"><i class="fa-solid fa-bars"></i></button>
+        <img class="header-bg" src="Images/Hero.png" alt="Malang Raya Forest">
+        <div class="header-content">
+            <h1>Tentang Kami</h1>
+            <p>Kelompok 1 STEM Interdisiplin</p>
+        </div>
+    </header>
+
+    <div class="detail-body" style="margin-top: -30px; position: relative; z-index: 10;">
+        <div style="text-align: center; margin-bottom: 24px;">
+            <img src="Images/Lambang-UM.webp" alt="Logo Universitas Negeri Malang" style="width: 120px; height: auto;">
+        </div>
+        <h2 class="detail-title" style="text-align: center; font-size: 1.4rem;">Biodiversity-Based<br>Ecotourism Mapping</h2>
+        <p style="text-align: center; color: var(--text-muted); font-size: 0.9rem; margin-bottom: 32px;">
+            Universitas Negeri Malang<br>Program Studi S2 Pendidikan Biologi
+        </p>
+
+        <h3 class="section-label"><i class="fa-solid fa-users text-green"></i> Tim Pengembang</h3>
+        <div class="local-wisdom-card">
+            <p>Proyek ini dikembangkan oleh <strong>Kelompok 1</strong> pada mata kuliah Pembelajaran STEM Interdisiplin. Bertujuan untuk memberikan wawasan ekologis dan wisata alam secara edukatif dengan pendekatan sains terapan di kawasan Malang Raya.</p>
+        </div>
+
+        <h3 class="section-label" style="margin-top: 24px;"><i class="fa-solid fa-bullseye text-blue"></i> Tujuan Proyek</h3>
+        <ul style="padding-left: 20px; color: var(--text-main); font-size: 0.95rem; line-height: 1.6; margin-bottom: 32px; font-weight: 400;">
+            <li style="margin-bottom: 8px;">Mengenalkan kekayaan keanekaragaman hayati (Flora & Fauna) khas ekowisata Malang Raya.</li>
+            <li style="margin-bottom: 8px;">Mengintegrasikan nilai sains, teknologi, rekayasa, dan matematika (STEM) dalam konteks pelestarian lingkungan.</li>
+            <li style="margin-bottom: 8px;">Menyajikan kearifan lokal <i>(local wisdom)</i> yang hidup berdampingan dengan bentang alam sekitar.</li>
+        </ul>
+
+    </div>
+
+    <!-- Spacer for bottom nav -->
+    <div style="height: 80px;"></div>
+
+    <!-- BOTTOM NAVIGATION -->
+    <nav class="bottom-nav">
+        <a href="index.html#map-view" class="nav-item">
+            <i class="fa-solid fa-map"></i>
+            <span>Map</span>
+        </a>
+        <a href="index.html#biodiversity-view" class="nav-item">
+            <i class="fa-solid fa-leaf"></i>
+            <span>Biodiversity</span>
+        </a>
+        <a href="index.html#wisdom" class="nav-item">
+            <i class="fa-solid fa-scroll"></i>
+            <span>Wisdom</span>
+        </a>
+        <a href="about.html" class="nav-item active">
+            <i class="fa-solid fa-user"></i>
+            <span>About</span>
+        </a>
+    </nav>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
