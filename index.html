@@ -24,10 +24,10 @@
             <button id="closeSidebarBtn" class="btn-close-sidebar"><i class="fa-solid fa-xmark"></i></button>
         </div>
         <div class="sidebar-content">
-            <a href="#" class="sidebar-item"><i class="fa-solid fa-book"></i> Petunjuk Penggunaan</a>
-            <a href="index.html" class="sidebar-item"><i class="fa-solid fa-map-location-dot"></i> Info Lokasi</a>
+            <a href="index.html" class="sidebar-item"><i class="fa-solid fa-home"></i> Halaman Utama</a>
+            <a href="petunjuk.html" class="sidebar-item"><i class="fa-solid fa-book"></i> Petunjuk Penggunaan</a>
+            <a href="info-lokasi.html" class="sidebar-item"><i class="fa-solid fa-map-location-dot"></i> Info Lokasi</a>
             <a href="about.html" class="sidebar-item"><i class="fa-solid fa-circle-info"></i> Tentang Kami</a>
-            <a href="#" class="sidebar-item"><i class="fa-solid fa-comment-dots"></i> Feedback</a>
         </div>
         <div class="sidebar-footer">
             <p><strong>Kelompok 1 Pembelajaran STEM Interdisiplin</strong></p>
@@ -52,20 +52,29 @@
     <!-- MAP SECTION -->
     <section class="map-section section-padding" id="map-view">
         <h2 class="section-title">Interactive Map</h2>
-        <div class="map-container">
-            <img class="map-bg" src="https://images.unsplash.com/photo-1524661135-423995f22d0b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Interactive Map">
-            <!-- Map Pins -->
-            <div class="map-pin" style="top: 35%; left: 35%;" onclick="openDetail('coban-rondo')">
+        <div class="map-container" style="--map-w: 1000; --map-h: 1200;">
+            <img class="map-bg" src="Images/Coban Rondo/MAP.webp" alt="Interactive Map" style="width: 100%; height: auto; display: block;">
+            <!-- Map Pins (menggunakan kalkulasi dari X=1000, Y=1200) -->
+            <div class="map-pin" style="top: calc(210 / var(--map-h) * 100%); left: calc(260 / var(--map-w) * 100%);" onclick="openDetail('coban-rondo')">
                 <i class="fa-solid fa-location-dot"></i>
-                <span class="pin-label">Coban Rondo</span>
             </div>
-            <div class="map-pin" style="top: 25%; left: 65%;" onclick="openDetail('kebun-teh-wonosari')">
+            <div class="map-pin" style="top: calc(220 / var(--map-h) * 100%); left: calc(800 / var(--map-w) * 100%);" onclick="openDetail('cangar')">
                 <i class="fa-solid fa-location-dot"></i>
-                <span class="pin-label">Kebun Teh</span>
             </div>
-            <div class="map-pin" style="top: 75%; left: 50%;" onclick="openDetail('pantai-selok')">
+            <div class="map-pin" style="top: calc(420 / var(--map-h) * 100%); left: calc(160 / var(--map-w) * 100%);" onclick="openDetail('bedengan')">
                 <i class="fa-solid fa-location-dot"></i>
-                <span class="pin-label">Pantai Selok</span>
+            </div>
+            <div class="map-pin" style="top: calc(430 / var(--map-h) * 100%); left: calc(600 / var(--map-w) * 100%);" onclick="openDetail('kebun-teh-wonosari')">
+                <i class="fa-solid fa-location-dot"></i>
+            </div>
+            <div class="map-pin" style="top: calc(620 / var(--map-h) * 100%); left: calc(300 / var(--map-w) * 100%);" onclick="openDetail('coban-pelangi')">
+                <i class="fa-solid fa-location-dot"></i>
+            </div>
+            <div class="map-pin" style="top: calc(820 / var(--map-h) * 100%); left: calc(530 / var(--map-w) * 100%);" onclick="openDetail('candi-badut')">
+                <i class="fa-solid fa-location-dot"></i>
+            </div>
+            <div class="map-pin" style="top: calc(700 / var(--map-h) * 100%); left: calc(800 / var(--map-w) * 100%);" onclick="openDetail('pantai-selok')">
+                <i class="fa-solid fa-location-dot"></i>
             </div>
         </div>
         <p class="map-insight">

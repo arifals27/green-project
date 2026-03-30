@@ -17,6 +17,7 @@
         "desc": "Air Terjun Coban Rondo merupakan salah satu objek wisata alam yang terletak di Kecamatan Pujon, Kabupaten Malang.",
         "deskripsi": "Air Terjun Coban Rondo merupakan salah satu objek wisata alam yang terletak di Kecamatan Pujon, Kabupaten Malang, Provinsi Jawa Timur. Air terjun ini berada pada ketinggian sekitar 1.135 mdpl dan memiliki tinggi mencapai 84 meter dengan debit air berkisar antara 90 liter per detik pada musim kemarau hingga 150 liter per detik pada musim penghujan.",
         "content": "Air Terjun Coban Rondo merupakan salah satu objek wisata alam yang terletak di Kecamatan Pujon, Kabupaten Malang, Provinsi Jawa Timur. Air terjun ini berada pada ketinggian sekitar 1.135 mdpl dan memiliki tinggi mencapai 84 meter dengan debit air berkisar antara 90 liter per detik pada musim kemarau hingga 150 liter per detik pada musim penghujan.\n\nPengunjung dapat menikmati berbagai fasilitas yang tersedia, seperti area perkemahan (camping ground), jalur jogging, tempat pemancingan, penginapan, jalur sepeda gunung, serta persemaian tanaman hutan. Bagi pengunjung, disarankan untuk tetap berhati-hati, terutama saat kondisi hujan, baik ketika menggunakan kendaraan pribadi maupun kendaraan sewa. Berkendara sebaiknya dilakukan dengan kecepatan rendah serta tetap waspada demi keselamatan.",
+        "fun_fact": "Air Terjun ini merupakan rentetan dari air terjun bertingkat (Manten, Dudo, Rondo). Namanya bermakna 'Air Terjun Janda', yang berasal dari kisah tragis legenda lokal Dewi Anjarwati.",
         "legend": "Kisah Dewi Anjarwati",
         "legend_content": "Menurut cerita rakyat setempat, nama “Coban Rondo” yang berarti “Air Terjun Janda” berasal dari kisah tragis Dewi Anjarwati dari Gunung Kawi dan suaminya Raden Baron Kusuma dari Gunung Anjasmoro...",
         "wisdom": {
@@ -61,7 +62,7 @@
             },
             {
                 "name": "Pohon Pinus",
-                "latin": "Pinus",
+                "latin": "Pinus merkusii",
                 "link": "https://biodiversitywarriors.kehati.or.id/foto/menjulang-tinggi-si-pohon-pinus/",
                 "image": "Images/Coban Rondo/Flora/6.jpg"
             },
@@ -76,18 +77,6 @@
                 "latin": "Adiantum capillus-veneris",
                 "link": "https://www.infoflora.ch/en/flora/adiantum-capillus-veneris.html",
                 "image": "Images/Coban Rondo/Flora/8.jpg"
-            },
-            {
-                "name": "King's Orthopteris",
-                "latin": "Orthopteris campylura",
-                "link": "https://fernsoftheworld.com/2015/07/23/orthopteris-campylura-var-kingii/",
-                "image": "https://picsum.photos/200"
-            },
-            {
-                "name": "Narrow-leaved Cloak Fern",
-                "latin": "Cheilanthes tenuifolia",
-                "link": "https://www.inaturalist.org/taxa/209395-Cheilanthes-tenuifolia",
-                "image": "https://picsum.photos/200"
             }
         ],
         "fauna": [
@@ -111,13 +100,13 @@
             },
             {
                 "name": "Mayfly",
-                "latin": "Baetidae",
+                "latin": "Baetis fuscatus",
                 "link": "https://www.insektenbox.de/sonsti/baetfu.htm",
                 "image": "Images/Coban Rondo/Fauna/4.jpg"
             },
             {
                 "name": "Black Fly",
-                "latin": "Simulium",
+                "latin": "Simulium eximum",
                 "link": "https://www.valentbiosciences.com/publichealth/insects/black-fly-simulium/",
                 "image": "Images/Coban Rondo/Fauna/5.jpg"
             },
@@ -134,50 +123,50 @@
                 "image": "Images/Coban Rondo/Fauna/7.jpeg"
             },
             {
-                "name": "Stonefly",
-                "latin": "Neoperla",
+                "name": "Planaria",
+                "latin": "Dugesia japonica",
                 "link": "https://ru.wikipedia.org/wiki/Neoperla",
                 "image": "Images/Coban Rondo/Fauna/8.jpg"
             },
             {
-                "name": "Danaid Eggfly",
-                "latin": "Hypolimnas misippus",
+                "name": "Stonefly",
+                "latin": "Neoperla mindoroensis",
                 "link": "https://baliwildlife.com/id/ensiklopedia/hewan/serangga/kupu-kupu/the-danaid-eggfly/",
                 "image": "Images/Coban Rondo/Fauna/9.webp"
             },
             {
-                "name": "Straight Line Map Wing",
-                "latin": "Cyrestis nivea",
+                "name": "Danaid Eggfly",
+                "latin": "Hypolimnas misippus",
                 "link": "https://thaibutterflies.com/Butterflies/cyrestis-nivea/",
                 "image": "Images/Coban Rondo/Fauna/10.jpg"
             },
             {
-                "name": "Great Eggfly",
-                "latin": "Hypolimnas bolina",
+                "name": "Straight Line Map Wing",
+                "latin": "Cyrestis nivea",
                 "link": "https://www.inaturalist.org/taxa/70174-Hypolimnas-bolina",
                 "image": "Images/Coban Rondo/Fauna/11.jpg"
             },
             {
-                "name": "Crane Fly",
-                "latin": "Tipula pruinosa",
+                "name": "Great Eggfly",
+                "latin": "Hypolimnas bolina",
                 "link": "https://www.digital-nature.de/tierwelt/insekten/tipuloidea/pruinosa/tipula-pruinosa.html",
                 "image": "Images/Coban Rondo/Fauna/12.jpg"
             },
             {
-                "name": "Black Horse Fly",
-                "latin": "Tabanus atratus",
+                "name": "Crane Fly",
+                "latin": "Tipula pruinosa",
                 "link": "https://www.inaturalist.org/taxa/116680-Tabanus-atratus",
                 "image": "Images/Coban Rondo/Fauna/13.jpg"
             },
             {
-                "name": "Non-biting Midge",
-                "latin": "Chironomus",
+                "name": "Black Horse Fly",
+                "latin": "Tabanus atratus",
                 "link": "https://id.wikipedia.org/wiki/Chironomus",
                 "image": "Images/Coban Rondo/Fauna/14.jpg"
             },
             {
-                "name": "Extra Fauna",
-                "latin": "Extra",
+                "name": "Non-biting Midge",
+                "latin": "Chironomus columbiensis",
                 "link": "",
                 "image": "Images/Coban Rondo/Fauna/15.jpg"
             }
@@ -230,6 +219,7 @@
         "desc": "Pantai Selok merupakan salah satu destinasi wisata pantai di pesisir selatan Malang yang masih tergolong alami dan belum terlalu ramai dikunjungi.",
         "deskripsi": "Pantai Selok merupakan salah satu destinasi wisata pantai di pesisir selatan Malang yang masih tergolong alami dan belum terlalu ramai dikunjungi. Pantai ini memiliki hamparan pasir putih yang cukup luas, dihiasi dengan bebatuan karang yang unik.",
         "content": "Pantai Selok merupakan salah satu destinasi wisata pantai di pesisir selatan Malang yang masih tergolong alami dan belum terlalu ramai dikunjungi. Pantai ini memiliki hamparan pasir putih yang cukup luas, dihiasi dengan bebatuan karang yang unik serta pemandangan langsung ke Samudera Hindia dengan ombak yang relatif besar. Suasana yang tenang dan asri menjadikan Pantai Selok cocok untuk aktivitas seperti piknik, berkemah, atau sekadar menikmati keindahan alam dan matahari terbenam. Meskipun fasilitasnya masih sederhana, keindahan lanskap dan nuansa sepi justru menjadi daya tarik utama bagi wisatawan yang ingin melepas penat dari keramaian kota.",
+        "fun_fact": "Usut punya usut, nama 'Selok' berasal dari bahasa Jawa 'kesel e ndelok' (lelah melihat). Pantai ini letaknya bersebelahan langsung dengan Pantai Banyu Meneng lho! Kamu bisa akses keduanya lewat jalan setapak.",
         "legend": "Altar Kuno",
         "legend_content": "Di kawasan Pantai Selok Malang, terdapat sebuah struktur batu alami yang oleh masyarakat setempat diyakini menyerupai altar kuno peninggalan leluhur. Batu-batu besar itu tersusun tidak beraturan, namun membentuk bidang datar seperti tempat sesaji...",
         "wisdom": {
@@ -249,32 +239,32 @@
                 "image": "Images/Pantai Selok/Flora/1.jpg"
             },
             {
-                "name": "Bintangur",
-                "latin": "Calophyllum inophyllum",
+                "name": "Pohon Waru",
+                "latin": "Hibiscus tiliaceus",
                 "link": "https://www.socfindoconservation.co.id/plant/482",
                 "image": "Images/Pantai Selok/Flora/2.JPG"
             },
             {
-                "name": "Pandan Duri",
+                "name": "Pandan Laut",
                 "latin": "Pandanus tectorius",
                 "link": "https://www.floradirgantara.com/2021/09/mengenal-tumbuhan-pandan-duri-pandanus.html",
                 "image": "Images/Pantai Selok/Flora/3.jpg"
             },
             {
-                "name": "Black Mangrove",
-                "latin": "Avicennia germinans",
+                "name": "Mangrove",
+                "latin": "Rhizophora",
                 "link": "https://plantglossary.com/black-mangrove/",
                 "image": "Images/Pantai Selok/Flora/4.JPG"
             },
             {
-                "name": "Ketapang Kencana Varigata",
-                "latin": "Terminalia mantaly",
+                "name": "Pohon Ketapang",
+                "latin": "Terminalia catappa L",
                 "link": "https://www.tamantropis.com/pohon-ketapang-kencana-varigata/",
                 "image": "Images/Pantai Selok/Flora/5.png"
             },
             {
                 "name": "Mahoni",
-                "latin": "Swietenia macrophylla",
+                "latin": "Swietenia mahagoni",
                 "link": "https://fotolepascom.blogspot.com/2015/02/foto-buah-mahoni.html",
                 "image": "Images/Pantai Selok/Flora/6.jpg"
             },
@@ -285,7 +275,7 @@
                 "image": "Images/Pantai Selok/Flora/7.jpg"
             },
             {
-                "name": "Pohon Kelapa",
+                "name": "Kelapa",
                 "latin": "Cocos nucifera",
                 "link": "https://gardencenter.co.id/pohon-kelapa/",
                 "image": "Images/Pantai Selok/Flora/8.jpg"
@@ -293,92 +283,92 @@
         ],
         "fauna": [
             {
-                "name": "Kepiting Bakau",
+                "name": "Kepiting bakau",
                 "latin": "Scylla serrata",
                 "link": "https://www.greeners.co/flora-fauna/kepiting-bakau-penunggu-hutan-mangrove/",
                 "image": "Images/Pantai Selok/Fauna/1.webp"
             },
             {
-                "name": "Kerang Hijau",
+                "name": "Kerang hijau",
                 "latin": "Perna viridis",
                 "link": "https://lautsehat.id/flora-fauna/shelladen/kerang-hijau-si-penyelamat-air-laut-benarkah/",
                 "image": "Images/Pantai Selok/Fauna/2.jpg"
             },
             {
-                "name": "Bintang Laut",
-                "latin": "Asteroidea",
+                "name": "Bintang laut",
+                "latin": "Asterias rubens",
                 "link": "https://tekno.sindonews.com/read/1222875/768/12-spesies-bintang-laut-yang-luar-biasa-di-dunia-1696990239",
                 "image": "Images/Pantai Selok/Fauna/3.jpg"
             },
             {
                 "name": "Teripang",
-                "latin": "Holothuroidea",
+                "latin": "Holothuria scabra",
                 "link": "https://mongabay.co.id/2021/04/26/timun-laut-atau-teripang-begini-sejarah-dan-cara-membedakannya/",
                 "image": "Images/Pantai Selok/Fauna/4.jpg"
             },
             {
-                "name": "Ikan Kerapu",
-                "latin": "Epinephelinae",
+                "name": "Ikan kerapu",
+                "latin": "Epinephelus coioides",
                 "link": "https://www.perumperindo.co.id/harga-ikan-kerapu/",
                 "image": "Images/Pantai Selok/Fauna/5.jpg"
             },
             {
-                "name": "Udang Windu",
+                "name": "Udang windu",
                 "latin": "Penaeus monodon",
                 "link": "https://agrotek.id/hewan/udang-windu/",
                 "image": "Images/Pantai Selok/Fauna/6.webp"
             },
             {
-                "name": "Burung Camar Laut",
-                "latin": "Laridae",
+                "name": "Burung camar",
+                "latin": "Larus argentatus",
                 "link": "https://pixabay.com/id/photos/burung-camar-laut-satwa-alam-3945298/",
                 "image": "Images/Pantai Selok/Fauna/7.jpg"
             },
             {
-                "name": "Trinil",
-                "latin": "Tringa",
+                "name": "Burung trinil",
+                "latin": "Tringa sp.",
                 "link": "https://id.wikipedia.org/wiki/Trinil_(tringa)",
                 "image": "Images/Pantai Selok/Fauna/8.webp"
             },
             {
-                "name": "Kerang Tiram",
-                "latin": "Ostreidae",
+                "name": "Kerang pasir",
+                "latin": "Donax variabilis",
                 "link": "https://www.istockphoto.com/id/foto/kerang-tiram-di-atas-batu-di-pantai-gm999217618-270247964",
                 "image": "Images/Pantai Selok/Fauna/9.webp"
             },
             {
-                "name": "Ikan Belanak",
-                "latin": "Mugilidae",
+                "name": "Tiram",
+                "latin": "Crassostrea gigas",
                 "link": "https://www.goodnewsfromindonesia.id/2023/09/13/mengenal-ikan-belanak-karakteristik-habitat-dan-manfaat",
                 "image": "Images/Pantai Selok/Fauna/10.jpg"
             },
             {
-                "name": "Penyu Hijau",
-                "latin": "Chelonia mydas",
+                "name": "Ikan belanak",
+                "latin": "Mugil cephalus",
                 "link": "https://www.seaturtlestatus.org/green-turtle",
                 "image": "Images/Pantai Selok/Fauna/11.jpg"
             },
             {
-                "name": "Penyu Sisik",
-                "latin": "Eretmochelys imbricata",
+                "name": "Penyu hijau",
+                "latin": "Chelonia mydas",
                 "link": "https://www.fisheries.noaa.gov/species/hawksbill-turtle",
                 "image": "Images/Pantai Selok/Fauna/12.jpg"
             },
             {
-                "name": "Penyu Belimbing",
-                "latin": "Dermochelys coriacea",
+                "name": "Penyu sisik",
+                "latin": "Eretmochelys imbricata",
                 "link": "https://www.kompasiana.com/maria12425/5fa78cced541df5afb1c62a3/mengenal-biota-laut-penyu-belimbing-si-penyu-raksasa?page=6&page_images=2",
                 "image": "Images/Pantai Selok/Fauna/13.jpg"
             },
             {
-                "name": "Penyu Tempayan",
-                "latin": "Caretta caretta",
+                "name": "Penyu lekang",
+                "latin": "Lepidochelys olivacea",
                 "link": "https://1001indonesia.net/mengenal-penyu-tempayan-yang-keberadaannya-semakin-terancam/",
                 "image": "Images/Pantai Selok/Fauna/14.jpg"
             },
             {
-                "name": "Extra Fauna",
-                "latin": "Extra",
+                "name": "Penyu belimbing",
+                "latin": "Dermochelys coriacea",
                 "link": "",
                 "image": "Images/Pantai Selok/Fauna/15.jpg"
             }
@@ -429,6 +419,7 @@
         "desc": "Kebun Teh Wonosari memiliki berbagai potensi daya tarik yang bisa menarik wisatawan.",
         "deskripsi": "Kebun Teh Wonosari memiliki keindahan alam yang menenangkan, dengan hamparan kebun teh yang luas dari 1.200 mdpl.",
         "content": "Kebun Teh Wonosari memiliki berbagai potensi daya tarik yang bisa menarik wisatawan. Salah satunya adalah keindahan alam yang menenangkan, dengan hamparan kebun teh yang luas dan pemandangan pegunungan yang mempesona. Suasana yang sejuk dan segar dari 1.200 mdpl menjadikan tempat ini sangat cocok untuk wisatawan istirahat dari hiruk-pikuk perkotaan.\nSelain keindahan alam, Kebun Teh Wonosari juga menawarkan kegiatan agrowisata yang edukatif. Pengunjung dapat mengikuti tur kebun teh yang dipandu oleh petani lokal, di mana mereka bisa mempelajari cara menanam, merawat, dan memetik daun teh. Selain itu, pengunjung juga berkesempatan untuk melihat langsung proses pengolahan teh, dari pemetikan hingga pembuatan produk teh yang siap diseduh. Aktivitas ini memiliki daya tarik bagi wisatawan mancanegara yang ingin mengenal lebih dalam tentang budaya dan industri pertanian Indonesia.",
+        "fun_fact": "Kawasan bersuhu sejuk ini dulunya adalah perkebunan kopi dan kina pada tahun 1875 sebelum diubah pemerintah Belanda menjadi kebun teh di tahun 1910. Ini adalah kebun teh pertama di Jawa Timur!",
         "legend": "Tradisi Petik Teh",
         "legend_content": "Kearifan lokal di Kebun Teh Wonosari tidak hanya tercermin dalam aktivitas perkebunannya, tetapi juga dalam cara masyarakat menjaga keseimbangan antara alam, budaya kerja, dan tradisi yang diwariskan secara turun-temurun...",
         "wisdom": {
@@ -442,19 +433,19 @@
         },
         "flora": [
             {
-                "name": "Bunga Sepatu",
-                "latin": "Hibiscus rosa-sinensis",
+                "name": "Teh",
+                "latin": "Camellia sinensis",
                 "link": "https://www.socfindoconservation.co.id/plant/398",
                 "image": "Images/Kebun Teh Wonosari/Flora/1.jpg"
             },
             {
-                "name": "Moluccan albizia",
-                "latin": "Falcataria falcata",
+                "name": "Pohon Sengon",
+                "latin": "Falcataria moluccana",
                 "link": "https://www.inaturalist.org/taxa/1230463-Falcataria-falcata",
                 "image": "Images/Kebun Teh Wonosari/Flora/2.jpg"
             },
             {
-                "name": "Red Powder Puff",
+                "name": "Pohon Kaliandra",
                 "latin": "Calliandra haematocephala",
                 "link": "https://levypreserve.org/plant-listings/calliandra-haematocephala/",
                 "image": "Images/Kebun Teh Wonosari/Flora/3.jpg"
@@ -468,26 +459,26 @@
         ],
         "fauna": [
             {
-                "name": "Lebah Madu Raksasa",
-                "latin": "Apis dorsata",
+                "name": "Lebah madu",
+                "latin": "Apis cerana",
                 "link": "https://www.rekoforest.org/id/warta-lapangan/apis-dorsata-sang-lebah-madu-pohon-sialang/",
                 "image": "Images/Kebun Teh Wonosari/Fauna/1.webp"
             },
             {
                 "name": "Capung",
-                "latin": "Odonata",
+                "latin": "Orthetrum sabina",
                 "link": "https://www.klikdokter.com/ibu-anak/kesehatan-anak/ampuhkah-capung-untuk-atasi-kebiasaan-ngompol-anak?srsltid=AfmBOoqKhWbUok56JgKeRkMyO2OVgDm7o5uJ4DcPtu3bfRd0SQNBDAVA",
                 "image": "Images/Kebun Teh Wonosari/Fauna/2.jpg"
             },
             {
-                "name": "Kupu-Kupu",
-                "latin": "Lepidoptera",
+                "name": "Kupu-kupu",
+                "latin": "Papilio demoleus",
                 "link": "https://id.pinterest.com/carlesgobray/gambar-kupu2/",
                 "image": "Images/Kebun Teh Wonosari/Fauna/3.jpg"
             },
             {
-                "name": "Ulat Jengkal",
-                "latin": "Geometridae",
+                "name": "Ulat jengkal teh",
+                "latin": "Hyposidra talaca",
                 "link": "https://katalogcba.com/ulat-jengkal/",
                 "image": "Images/Kebun Teh Wonosari/Fauna/4.webp"
             }

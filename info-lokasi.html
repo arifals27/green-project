@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>EcoMap Malang Raya - Tentang Kami</title>
+    <title>Info Lokasi - EcoMap Malang Raya</title>
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -44,32 +44,40 @@
         <button id="openSidebarBtn" class="btn-menu"><i class="fa-solid fa-bars"></i></button>
         <img class="header-bg" src="Images/Hero.png" alt="Malang Raya Forest">
         <div class="header-content">
-            <h1>Tentang Kami</h1>
-            <p>Kelompok 1 STEM Interdisiplin</p>
+            <h1>Info Lokasi</h1>
+            <p>Cakupan Wilayah Ekowisata</p>
         </div>
     </header>
 
     <div class="detail-body" style="margin-top: -30px; position: relative; z-index: 10;">
-        <div style="text-align: center; margin-bottom: 24px;">
-            <img src="Images/Lambang-UM.webp" alt="Logo Universitas Negeri Malang" style="width: 120px; height: auto;">
+        <h3 class="section-label"><i class="fa-solid fa-location-arrow text-blue"></i> Malang Raya</h3>
+        <p style="font-size: 0.95rem; line-height: 1.6; color: var(--text-main); margin-bottom: 24px;">EcoMap Malang Raya memetakan potensi wisata ekologis yang kaya akan keanekaragaman hayati (biodiversitas) di bentang alam Malang. Kawasan ini meliputi daerah pegunungan yang sejuk nan subur hingga area pesisir selatan yang memikat.</p>
+
+        <div style="display:flex; flex-direction:column; gap:16px;">
+            <div class="highlight-box" style="padding:16px; align-items:center; background:#f0f9f4; border:1px solid #c8e6c9;">
+                <i class="fa-solid fa-water text-green" style="font-size:2rem; width:40px; text-align:center;"></i>
+                <div class="highlight-info">
+                    <h4 style="color:var(--text-main);">Air Terjun & Pegunungan</h4>
+                    <p style="font-size:0.85rem; color:var(--text-muted);">Contoh: Coban Rondo yang berada di ketinggian 1.000+ mdpl, dihuni ragam flora dan fauna sejuk tropis.</p>
+                </div>
+            </div>
+
+            <div class="highlight-box" style="padding:16px; align-items:center; background:#e3f2fd; border:1px solid #bbdefb;">
+                <i class="fa-solid fa-umbrella-beach text-blue" style="font-size:2rem; width:40px; text-align:center;"></i>
+                <div class="highlight-info">
+                    <h4 style="color:var(--text-main);">Pesisir & Tepi Laut</h4>
+                    <p style="font-size:0.85rem; color:var(--text-muted);">Contoh: Pantai Selok di selatan dengan vegetasi pesisir kuat dan satwa tepi laut intertidal.</p>
+                </div>
+            </div>
+
+            <div class="highlight-box" style="padding:16px; align-items:center; background:#fff3e0; border:1px solid #ffe0b2;">
+                <i class="fa-solid fa-seedling" style="font-size:2rem; width:40px; text-align:center; color:#e65100;"></i>
+                <div class="highlight-info">
+                    <h4 style="color:var(--text-main);">Agrowisata</h4>
+                    <p style="font-size:0.85rem; color:var(--text-muted);">Contoh: Perkebunan teh seperti di Wonosari memiliki ekosistem modifikasi sekaligus endemik serangga agraris.</p>
+                </div>
+            </div>
         </div>
-        <h2 class="detail-title" style="text-align: center; font-size: 1.4rem;">Biodiversity-Based<br>Ecotourism Mapping</h2>
-        <p style="text-align: center; color: var(--text-muted); font-size: 0.9rem; margin-bottom: 32px;">
-            Universitas Negeri Malang<br>Program Studi S2 Pendidikan Biologi
-        </p>
-
-        <h3 class="section-label"><i class="fa-solid fa-users text-green"></i> Tim Pengembang</h3>
-        <div class="local-wisdom-card">
-            <p>Proyek ini dikembangkan oleh <strong>Kelompok 1</strong> pada mata kuliah Pembelajaran STEM Interdisiplin. Bertujuan untuk memberikan wawasan ekologis dan wisata alam secara edukatif dengan pendekatan sains terapan di kawasan Malang Raya.</p>
-        </div>
-
-        <h3 class="section-label" style="margin-top: 24px;"><i class="fa-solid fa-bullseye text-blue"></i> Tujuan Proyek</h3>
-        <ul style="padding-left: 20px; color: var(--text-main); font-size: 0.95rem; line-height: 1.6; margin-bottom: 32px; font-weight: 400;">
-            <li style="margin-bottom: 8px;">Mengenalkan kekayaan keanekaragaman hayati (Flora & Fauna) khas ekowisata Malang Raya.</li>
-            <li style="margin-bottom: 8px;">Mengintegrasikan nilai sains, teknologi, rekayasa, dan matematika (STEM) dalam konteks pelestarian lingkungan.</li>
-            <li style="margin-bottom: 8px;">Menyajikan kearifan lokal <i>(local wisdom)</i> yang hidup berdampingan dengan bentang alam sekitar.</li>
-        </ul>
-
     </div>
 
     <!-- Spacer for bottom nav -->
@@ -89,7 +97,7 @@
             <i class="fa-solid fa-scroll"></i>
             <span>Wisdom</span>
         </a>
-        <a href="about.html" class="nav-item active">
+        <a href="about.html" class="nav-item">
             <i class="fa-solid fa-user"></i>
             <span>About</span>
         </a>

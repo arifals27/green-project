@@ -83,7 +83,7 @@ async function initDetailPage() {
 
     if (!data) {
         content.innerHTML = `<div style="padding: 100px 20px; text-align: center;">
-            <h2>Data tidak ditemukan atau error CORS</h2>
+            <h2>Data belum ditambahkan.</h2>
             <button onclick="window.location.href='index.html'" class="btn-explore" style="margin-top:20px;">Kembali ke Home</button>
         </div>`;
         return;
@@ -95,7 +95,7 @@ async function initDetailPage() {
         <div class="species-grid">
             ${data.flora.map(item => `
                 <div class="species-card">
-                    <img src="${item.image}" alt="${item.latin}">
+                    <img src="${item.image}" alt="${item.latin}" onclick="openLightbox(this.src)" style="cursor: pointer;">
                     <p>${item.latin}</p>
                 </div>
             `).join('')}
@@ -108,7 +108,7 @@ async function initDetailPage() {
         <div class="species-grid">
             ${data.fauna.map(item => `
                 <div class="species-card">
-                    <img src="${item.image}" alt="${item.latin}">
+                    <img src="${item.image}" alt="${item.latin}" onclick="openLightbox(this.src)" style="cursor: pointer;">
                     <p>${item.latin}</p>
                 </div>
             `).join('')}
@@ -131,9 +131,21 @@ async function initDetailPage() {
             
             <div class="detail-desc" style="font-size: 1rem; line-height: 1.7; white-space: pre-wrap; margin-bottom: 32px;">${data.content}</div>
 
+            ${data.fun_fact ? `
+            <div class="highlight-box gradient-bg" style="margin-bottom: 32px; cursor: pointer; transition: all 0.3s ease; box-shadow: var(--shadow-md);" onmouseover="this.style.boxShadow='var(--shadow-lg)'; this.style.transform='translateY(-4px)';" onmouseout="this.style.boxShadow='var(--shadow-md)'; this.style.transform='translateY(0)';">
+                <div class="icon-pulse">
+                    <i class="fa-solid fa-lightbulb"></i>
+                </div>
+                <div class="highlight-info">
+                    <h4 style="color: white; margin-bottom: 6px;">Fakta Menarik</h4>
+                    <p style="color: rgba(255,255,255,0.95); font-size: 0.9rem;">${data.fun_fact}</p>
+                </div>
+            </div>
+            ` : ''}
+
             ${data.wisdom.image ? `
             <div style="margin-bottom: 16px;">
-                <img src="${data.wisdom.image}" alt="${data.wisdom.title}" style="width: 100%; border-radius: 8px; object-fit: cover; max-height: 250px;">
+                <img src="${data.wisdom.image}" alt="${data.wisdom.title}" onclick="openLightbox(this.src)" style="width: 100%; border-radius: 8px; object-fit: cover; max-height: 250px; cursor: pointer;">
                 ${data.wisdom.credit ? `
                 <p style="font-size: 0.75rem; color: #757575; text-align: right; margin-top: 4px; margin-bottom: 0;">
                     Credit photo: <a href="${data.wisdom.credit.url}" target="_blank" style="color: #2E8B57; text-decoration: none;">${data.wisdom.credit.text}</a>
@@ -242,5 +254,41 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 
-
 });
+
+// Lightbox Logic
+window.openLightbox = function(src) {
+    let lightbox = document.getElementById('lightbox-modal');
+    if (!lightbox) {
+        lightbox = document.createElement('div');
+        lightbox.id = 'lightbox-modal';
+        lightbox.style.cssText = 'position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.85); z-index:9999; display:flex; justify-content:center; align-items:center; opacity:0; transition:opacity 0.3s ease; padding: 20px;';
+        lightbox.innerHTML = `
+            <span style="position:absolute; top:20px; right:20px; color:white; font-size:2.5rem; cursor:pointer; line-height: 1;" onclick="closeLightbox()">&times;</span>
+            <img id="lightbox-img" src="" style="max-width:100%; max-height:90vh; border-radius:12px; box-shadow:0 10px 30px rgba(0,0,0,0.5); transform:scale(0.8); transition:transform 0.3s ease; object-fit:contain;">
+        `;
+        lightbox.onclick = function(e) {
+            if (e.target === lightbox) closeLightbox();
+        };
+        document.body.appendChild(lightbox);
+    }
+    const img = document.getElementById('lightbox-img');
+    img.src = src;
+    
+    lightbox.style.display = 'flex';
+    setTimeout(() => {
+        lightbox.style.opacity = '1';
+        img.style.transform = 'scale(1)';
+    }, 10);
+};
+
+window.closeLightbox = function() {
+    const lightbox = document.getElementById('lightbox-modal');
+    if (lightbox) {
+        lightbox.style.opacity = '0';
+        document.getElementById('lightbox-img').style.transform = 'scale(0.8)';
+        setTimeout(() => {
+            lightbox.style.display = 'none';
+        }, 300);
+    }
+};

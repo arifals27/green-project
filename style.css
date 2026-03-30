@@ -118,7 +118,6 @@ body {
 .map-container {
   position: relative;
   width: 100%;
-  height: 220px;
   border-radius: var(--radius-md);
   overflow: hidden;
   box-shadow: var(--shadow-md);
@@ -127,8 +126,8 @@ body {
 
 .map-bg {
   width: 100%;
-  height: 100%;
-  object-fit: cover;
+  height: auto;
+  object-fit: contain;
   opacity: 0.9;
 }
 
@@ -139,6 +138,7 @@ body {
   flex-direction: column;
   align-items: center;
   cursor: pointer;
+  z-index: 10;
   animation: bounce 2s infinite ease-in-out;
 }
 
