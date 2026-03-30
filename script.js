@@ -49,12 +49,6 @@ function renderCards(data) {
                 <p style="font-size: 0.85rem; margin-bottom: 16px; color: var(--text-main); display: -webkit-box; -webkit-line-clamp: 3; line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden;">
                     ${item.desc.replace(/<br>/g, ' ')}
                 </p>
-
-                <div class="bio-tags" style="justify-content: space-between; border-top: 1px solid #E0E0E0; padding-top: 16px; margin-bottom: 0;">
-                    <span class="tag flora" style="flex: 1; text-align: center;"><i class="fa-solid fa-leaf"></i> Flora</span>
-                    <span class="tag fauna" style="flex: 1; text-align: center;"><i class="fa-solid fa-paw"></i> Fauna</span>
-                    <span class="tag" style="flex: 1; text-align: center; background: var(--brown-light); color: var(--brown-primary);"><i class="fa-solid fa-book-open"></i> Kearifan Lokal</span>
-                </div>
             </div>
         </article>
     `).join('');
