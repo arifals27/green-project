@@ -88,7 +88,7 @@ async function initDetailPage() {
         </div>`;
         return;
     }
-
+document.title = data.name + " - EcoMap Malang Raya";
     // Generate HTML for Flora Grid
     const floraHtml = `
         <div class="species-badge" style="text-align: center; justify-content: center; display: flex; align-items: center; gap: 8px;"><i class="fa-solid fa-leaf"></i> Flora</div>

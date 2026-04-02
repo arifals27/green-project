@@ -3,144 +3,315 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>EcoMap Malang Raya - Biodiversity Ecotourism</title>
-    <!-- Google Fonts -->
+    <title>Website Ditutup</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style-v1.1.css">
-    <!-- FontAwesome for Icons -->
-    <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    
-    <!-- Prefetch resources for instant navigation -->
-    <link rel="prefetch" href="detail.html">
-    <link rel="prefetch" href="database-v1.1.json">
+    <style>
+        *, *::before, *::after {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Outfit', sans-serif;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: #0a0e17;
+            color: #e2e8f0;
+            overflow: hidden;
+            position: relative;
+        }
+
+        /* Animated background */
+        body::before {
+            content: '';
+            position: fixed;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: 
+                radial-gradient(ellipse at 20% 50%, rgba(16, 185, 129, 0.08) 0%, transparent 50%),
+                radial-gradient(ellipse at 80% 20%, rgba(59, 130, 246, 0.06) 0%, transparent 50%),
+                radial-gradient(ellipse at 50% 80%, rgba(139, 92, 246, 0.05) 0%, transparent 50%);
+            animation: bgShift 15s ease-in-out infinite alternate;
+            z-index: 0;
+        }
+
+        @keyframes bgShift {
+            0% { transform: translate(0, 0) rotate(0deg); }
+            100% { transform: translate(-5%, 3%) rotate(3deg); }
+        }
+
+        /* Floating particles */
+        .particles {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            pointer-events: none;
+            z-index: 0;
+        }
+
+        .particle {
+            position: absolute;
+            width: 4px;
+            height: 4px;
+            background: rgba(16, 185, 129, 0.3);
+            border-radius: 50%;
+            animation: float linear infinite;
+        }
+
+        .particle:nth-child(1) { left: 10%; animation-duration: 12s; animation-delay: 0s; }
+        .particle:nth-child(2) { left: 25%; animation-duration: 15s; animation-delay: 2s; width: 3px; height: 3px; background: rgba(59, 130, 246, 0.25); }
+        .particle:nth-child(3) { left: 40%; animation-duration: 10s; animation-delay: 4s; }
+        .particle:nth-child(4) { left: 55%; animation-duration: 18s; animation-delay: 1s; width: 5px; height: 5px; background: rgba(139, 92, 246, 0.2); }
+        .particle:nth-child(5) { left: 70%; animation-duration: 14s; animation-delay: 3s; }
+        .particle:nth-child(6) { left: 85%; animation-duration: 11s; animation-delay: 5s; width: 3px; height: 3px; background: rgba(59, 130, 246, 0.2); }
+        .particle:nth-child(7) { left: 15%; animation-duration: 16s; animation-delay: 6s; width: 2px; height: 2px; }
+        .particle:nth-child(8) { left: 60%; animation-duration: 13s; animation-delay: 7s; width: 6px; height: 6px; background: rgba(16, 185, 129, 0.15); }
+
+        @keyframes float {
+            0% { transform: translateY(100vh) scale(0); opacity: 0; }
+            10% { opacity: 1; }
+            90% { opacity: 1; }
+            100% { transform: translateY(-10vh) scale(1); opacity: 0; }
+        }
+
+        .container {
+            position: relative;
+            z-index: 1;
+            text-align: center;
+            padding: 40px 24px;
+            max-width: 560px;
+            width: 100%;
+        }
+
+        /* Icon */
+        .icon-wrapper {
+            width: 120px;
+            height: 120px;
+            margin: 0 auto 36px;
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .icon-wrapper::before {
+            content: '';
+            position: absolute;
+            inset: 0;
+            border-radius: 50%;
+            background: linear-gradient(135deg, rgba(239, 68, 68, 0.15), rgba(239, 68, 68, 0.05));
+            border: 1px solid rgba(239, 68, 68, 0.2);
+            animation: pulse-ring 3s ease-in-out infinite;
+        }
+
+        .icon-wrapper::after {
+            content: '';
+            position: absolute;
+            inset: 12px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, rgba(239, 68, 68, 0.2), rgba(239, 68, 68, 0.08));
+            border: 1px solid rgba(239, 68, 68, 0.15);
+        }
+
+        @keyframes pulse-ring {
+            0%, 100% { transform: scale(1); opacity: 1; }
+            50% { transform: scale(1.08); opacity: 0.7; }
+        }
+
+        .icon-wrapper i {
+            font-size: 42px;
+            color: #ef4444;
+            position: relative;
+            z-index: 1;
+            filter: drop-shadow(0 0 20px rgba(239, 68, 68, 0.4));
+        }
+
+        /* Title */
+        h1 {
+            font-size: 2rem;
+            font-weight: 800;
+            margin-bottom: 12px;
+            background: linear-gradient(135deg, #f87171, #ef4444, #dc2626);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            letter-spacing: -0.02em;
+        }
+
+        .subtitle {
+            font-size: 1.05rem;
+            color: #94a3b8;
+            font-weight: 300;
+            line-height: 1.7;
+            margin-bottom: 40px;
+        }
+
+        /* Divider */
+        .divider {
+            width: 60px;
+            height: 3px;
+            background: linear-gradient(90deg, transparent, rgba(16, 185, 129, 0.5), transparent);
+            margin: 0 auto 40px;
+            border-radius: 2px;
+        }
+
+        /* Info card */
+        .info-card {
+            background: rgba(255, 255, 255, 0.03);
+            border: 1px solid rgba(255, 255, 255, 0.06);
+            border-radius: 20px;
+            padding: 32px 28px;
+            backdrop-filter: blur(20px);
+            margin-bottom: 32px;
+        }
+
+        .info-card p {
+            font-size: 0.95rem;
+            color: #cbd5e1;
+            line-height: 1.8;
+            font-weight: 300;
+        }
+
+        .info-card p strong {
+            color: #e2e8f0;
+            font-weight: 600;
+        }
+
+        /* Contact section */
+        .contact-section {
+            background: linear-gradient(135deg, rgba(16, 185, 129, 0.08), rgba(16, 185, 129, 0.03));
+            border: 1px solid rgba(16, 185, 129, 0.15);
+            border-radius: 20px;
+            padding: 32px 28px;
+            margin-bottom: 32px;
+        }
+
+        .contact-section h3 {
+            font-size: 0.85rem;
+            text-transform: uppercase;
+            letter-spacing: 0.12em;
+            color: #10b981;
+            margin-bottom: 20px;
+            font-weight: 600;
+        }
+
+        .contact-item {
+            display: flex;
+            align-items: center;
+            gap: 14px;
+            padding: 14px 0;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.04);
+            text-decoration: none;
+            color: #cbd5e1;
+            transition: all 0.3s ease;
+        }
+
+        .contact-item:last-child {
+            border-bottom: none;
+        }
+
+        .contact-item:hover {
+            color: #10b981;
+            transform: translateX(4px);
+        }
+
+        .contact-item i {
+            width: 40px;
+            height: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 12px;
+            background: rgba(16, 185, 129, 0.1);
+            color: #10b981;
+            font-size: 1rem;
+            flex-shrink: 0;
+            transition: all 0.3s ease;
+        }
+
+        .contact-item:hover i {
+            background: rgba(16, 185, 129, 0.2);
+            transform: scale(1.05);
+        }
+
+        .contact-item span {
+            font-size: 0.95rem;
+            font-weight: 400;
+        }
+
+        /* Footer */
+        .footer-text {
+            font-size: 0.8rem;
+            color: #475569;
+            font-weight: 300;
+            line-height: 1.6;
+        }
+
+        /* Responsive */
+        @media (max-width: 480px) {
+            h1 { font-size: 1.6rem; }
+            .subtitle { font-size: 0.95rem; }
+            .icon-wrapper { width: 100px; height: 100px; }
+            .icon-wrapper i { font-size: 34px; }
+            .info-card, .contact-section { padding: 24px 20px; }
+        }
+    </style>
 </head>
 <body>
 
-<div class="app-container">
-    
-    <!-- SIDEBAR MENU -->
-    <div id="sidebarOverlay" class="sidebar-overlay"></div>
-    <nav id="sidebarMenu" class="sidebar-menu">
-        <div class="sidebar-header">
-            <img src="Images/Lambang-UM.webp" alt="Lambang UM" class="sidebar-logo">
-            <button id="closeSidebarBtn" class="btn-close-sidebar"><i class="fa-solid fa-xmark"></i></button>
-        </div>
-        <div class="sidebar-content">
-            <a href="index.html" class="sidebar-item"><i class="fa-solid fa-home"></i> Halaman Utama</a>
-            <a href="petunjuk.html" class="sidebar-item"><i class="fa-solid fa-book"></i> Petunjuk Penggunaan</a>
-            <a href="info-lokasi.html" class="sidebar-item"><i class="fa-solid fa-map-location-dot"></i> Info Lokasi</a>
-            <a href="about.html" class="sidebar-item"><i class="fa-solid fa-circle-info"></i> Tentang Kami</a>
-        </div>
-        <div class="sidebar-footer">
-            <p><strong>Kelompok 1 Pembelajaran STEM Interdisiplin</strong></p>
-            <p>Biodiversity-Based Ecotourism Mapping</p>
-            <div style="height: 12px;"></div>
-            <p><strong>S2 Pendidikan Biologi</strong></p>
-            <p>Universitas Negeri Malang</p>
-        </div>
-    </nav>
+    <!-- Floating particles -->
+    <div class="particles">
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+    </div>
 
-    <!-- HEADER -->
-    <header class="hero-header">
-        <div class="header-overlay"></div>
-        <button id="openSidebarBtn" class="btn-menu"><i class="fa-solid fa-bars"></i></button>
-        <img class="header-bg" src="Images/Hero.webp" alt="Malang Raya Forest">
-        <div class="header-content">
-            <h1>EcoMap Malang Raya</h1>
-            <p>Explore Nature, Understand Life</p>
-        </div>
-    </header>
+    <div class="container">
 
-    <!-- MAP SECTION -->
-    <section class="map-section section-padding" id="map-view">
-        <div class="map-container" style="--map-w: 1000; --map-h: 1200;">
-            <img class="map-bg" src="Images/Coban Rondo/MAP.webp" alt="Interactive Map" style="width: 100%; height: auto; display: block;">
-            <!-- Map Pins (menggunakan kalkulasi dari X=1000, Y=1200) -->
-            <div class="map-pin" style="top: calc(210 / var(--map-h) * 100%); left: calc(260 / var(--map-w) * 100%);" onclick="openDetail('coban-rondo')">
-                <i class="fa-solid fa-location-dot"></i>
-            </div>
-            <div class="map-pin" style="top: calc(220 / var(--map-h) * 100%); left: calc(800 / var(--map-w) * 100%);" onclick="openDetail('cangar')">
-                <i class="fa-solid fa-location-dot"></i>
-            </div>
-            <div class="map-pin" style="top: calc(420 / var(--map-h) * 100%); left: calc(160 / var(--map-w) * 100%);" onclick="openDetail('bedengan')">
-                <i class="fa-solid fa-location-dot"></i>
-            </div>
-            <div class="map-pin" style="top: calc(430 / var(--map-h) * 100%); left: calc(600 / var(--map-w) * 100%);" onclick="openDetail('kebun-teh-wonosari')">
-                <i class="fa-solid fa-location-dot"></i>
-            </div>
-            <div class="map-pin" style="top: calc(620 / var(--map-h) * 100%); left: calc(300 / var(--map-w) * 100%);" onclick="openDetail('coban-pelangi')">
-                <i class="fa-solid fa-location-dot"></i>
-            </div>
-            <div class="map-pin" style="top: calc(820 / var(--map-h) * 100%); left: calc(530 / var(--map-w) * 100%);" onclick="openDetail('candi-badut')">
-                <i class="fa-solid fa-location-dot"></i>
-            </div>
-            <div class="map-pin" style="top: calc(700 / var(--map-h) * 100%); left: calc(800 / var(--map-w) * 100%);" onclick="openDetail('pantai-selok')">
-                <i class="fa-solid fa-location-dot"></i>
-            </div>
+        <!-- Icon -->
+        <div class="icon-wrapper">
+            <i class="fa-solid fa-ban"></i>
         </div>
-        <p class="map-insight">
-            <i class="fa-solid fa-microscope text-green"></i> <strong>STEM Insight:</strong> Utilizing Geographic Information Systems (GIS) to visualize biodiversity hotspots and ecological zones across Malang Raya.
+
+        <!-- Title -->
+        <h1>Website Ini Ditutup</h1>
+        <p class="subtitle">
+            Layanan pada website ini telah dihentikan untuk sementara waktu dan tidak lagi dapat diakses oleh publik.
         </p>
-    </section>
 
-    <!-- SEARCH & FILTER -->
-    <section class="search-filter section-padding" id="biodiversity-view">
-        <div class="search-bar">
-            <i class="fa-solid fa-search"></i>
-            <input type="text" placeholder="Cari wisata ekologis...">
+        <div class="divider"></div>
+
+        <!-- Info Card -->
+        <div class="info-card">
+            <p>
+                Apabila Anda merasa sebagai <strong>pemilik sah</strong> dari website ini atau memiliki kepentingan terkait konten yang ada di dalamnya, silakan hubungi <strong>developer</strong> melalui kontak di bawah ini untuk informasi lebih lanjut.
+            </p>
         </div>
 
-    </section>
+        <!-- Contact -->
+       
 
-    <!-- LIST WISATA (CARDS DICOMPILE OLEH SCRIPT.JS DARI JSON) -->
-    <section class="card-list section-padding" id="cardContainer">
-        <div style="text-align: center; padding: 40px;">
-            <i class="fa-solid fa-spinner fa-spin text-green" style="font-size: 2rem;"></i>
-            <p style="margin-top: 10px; color: var(--text-muted);">Memuat destinasi wisata...</p>
-        </div>
-    </section>
+        <!-- Footer -->
+        <p class="footer-text">
+            &copy; 2026 &mdash; Halaman ini dibuat secara otomatis oleh sistem.
+        </p>
 
-    <!-- STEM HIGHLIGHT -->
-    <section class="highlight-stem section-padding" id="wisdom">
-        <div class="highlight-box gradient-bg">
-            <div class="icon-pulse">
-                <i class="fa-solid fa-lightbulb"></i>
-            </div>
-            <div class="highlight-info">
-                <h4>Tahukah Kamu?</h4>
-                <p>Kawasan Malang Raya memiliki lebih dari <strong>2.500 spesies flora pegunungan</strong> yang berperan penting sebagai <em>catchment area</em> (area resapan air), menjaga keseimbangan siklus hidrologi untuk jutaan penduduk di Jawa Timur.</p>
-            </div>
-        </div>
-    </section>
+    </div>
 
-    <!-- Spacer for bottom nav -->
-    <div style="height: 80px;"></div>
-
-    <!-- BOTTOM NAVIGATION -->
-    <nav class="bottom-nav">
-        <a href="#map-view" class="nav-item active">
-            <i class="fa-solid fa-map"></i>
-            <span>Map</span>
-        </a>
-        <a href="#biodiversity-view" class="nav-item">
-            <i class="fa-solid fa-leaf"></i>
-            <span>Biodiversity</span>
-        </a>
-        <a href="#wisdom" class="nav-item">
-            <i class="fa-solid fa-scroll"></i>
-            <span>Wisdom</span>
-        </a>
-        <a href="about.html" class="nav-item">
-            <i class="fa-solid fa-user"></i>
-            <span>About</span>
-        </a>
-    </nav>
-
-</div>
-
-<script src="script-v1.1.js" defer></script>
 </body>
 </html>
