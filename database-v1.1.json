@@ -77,6 +77,18 @@
                 "latin": "Adiantum capillus-veneris",
                 "link": "https://www.infoflora.ch/en/flora/adiantum-capillus-veneris.html",
                 "image": "Images/Coban Rondo/Flora/8.webp"
+            },
+            {
+                "name": "Orthopteris campylura",
+                "latin": "Orthopteris campylura var. kingii",
+                "link": "https://fernsoftheworld.com/2015/07/23/orthopteris-campylura-var-kingii/",
+                "image": "Images/Coban Rondo/Flora/9.webp"
+            },
+            {
+                "name": "Cheilanthes",
+                "latin": "Cheilanthes tenuifolia",
+                "link": "https://www.inaturalist.org/taxa/209395-Cheilanthes-tenuifolia",
+                "image": "Images/Coban Rondo/Flora/10.webp"
             }
         ],
         "fauna": [
@@ -206,7 +218,7 @@
         "name": "Pantai Selok",
         "location": "Kecamatan Bantur, Kabupaten Malang",
         "map_url": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2415.696447585516!2d112.5127085284042!3d-8.397354690354183!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e78aec818a24fdd%3A0x47cca9ac14dc03c0!2sPantai%20Selok!5e0!3m2!1sen!2sus!4v1774865575422!5m2!1sen!2sus",
-        "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixlib=rb-4.0.3",
+        "image": "Images/Pantai Selok/Thumbnail.webp",
         "badge": {
             "text": "Pesisir & Laut",
             "icon": "fa-water",
@@ -225,7 +237,7 @@
         "wisdom": {
             "title": "Altar Kuno",
             "text": "Di kawasan Pantai Selok Malang, terdapat sebuah struktur batu alami yang oleh masyarakat setempat diyakini menyerupai altar kuno peninggalan leluhur. Batu-batu besar itu tersusun tidak beraturan, namun membentuk bidang datar seperti tempat sesaji, menghadap langsung ke hamparan laut selatan yang berombak kuat. Konon, pada masa lampau, tempat ini digunakan sebagai lokasi ritual untuk memohon keselamatan para nelayan sebelum melaut serta sebagai bentuk penghormatan kepada kekuatan alam yang dianggap sakral. Hingga kini, suasana di sekitar batu tersebut terasa berbeda hening, seolah menyimpan jejak spiritual yang masih hidup dalam ingatan kolektif warga.",
-            "image": "",
+            "image": "Images/Pantai Selok/Legend.webp",
             "credit": {
                 "text": "Tripadvisor",
                 "url": "https://www.tripadvisor.co.id/Attraction_Review-g297710-d12351836-Reviews-Selok_Beach-Malang_East_Java_Java.html"
@@ -494,6 +506,506 @@
             "https://www.klikdokter.com/ibu-anak/kesehatan-anak/ampuhkah-capung-untuk-atasi-kebiasaan-ngompol-anak?srsltid=AfmBOoqKhWbUok56JgKeRkMyO2OVgDm7o5uJ4DcPtu3bfRd0SQNBDAVA",
             "https://id.pinterest.com/carlesgobray/gambar-kupu2/",
             "https://katalogcba.com/ulat-jengkal/"
+        ]
+    },
+    {
+        "id": "bedengan-camping-ground",
+        "name": "Bedengan Camping Ground, Dau",
+        "location": "Jl. Raya Selokerto, Godehan, Selorejo. Kecamatan Dau, Kabupaten Malang, Jawa Timur 65151",
+        "map_url": "",
+        "image": "Images/Bedengan/Thumbnail.webp",
+        "badge": {
+            "text": "Alam & Perkemahan",
+            "icon": "fa-campground",
+            "color": "green"
+        },
+        "credit": {
+            "text": "TravelsPromo",
+            "url": "https://travelspromo.com/akomodasi/bumi-perkemahan-bedengan-malang/"
+        },
+        "desc": "Wana wisata Bedengan terletak di Desa Selorejo, Kecamatan Dau Kabupaten Malang Provinsi Jawa Timur.",
+        "deskripsi": "Wana wisata Bedengan terletak di Desa Selorejo, Kecamatan Dau Kabupaten Malang Provinsi Jawa Timur. Kawasan ini terletak pada ketinggian 700-1.200 mdpl, dengan dikelilingi oleh hutan pinus serta aliran sungai.",
+        "content": "Wana wisata Bedengan terletak di Desa Selorejo, Kecamatan Dau Kabupaten Malang Provinsi Jawa Timur. Kawasan ini terletak pada ketinggian 700-1.200 mdpl, dengan dikelilingi oleh hutan pinus serta aliran sungai. Bumi Perkemahan Bedengan adalah salah satu destinasi wisata yang menyediakan berbagai area camping ground. Tempat ini memiliki daya tarik utama berupa keindahan hutan pinus yang asri dan memanjakan mata. Lokasinya yang jauh dari hiruk pikuk perkotaan menciptakan suasana tenang, sehingga sangat cocok untuk relaksasi. Selain itu, kicauan burung akan menemani para wisatawan saat berkemah, karena kawasan ini merupakan habitat alami mereka.",
+        "fun_fact": "",
+        "legend": "Tradisi Wong Ireng",
+        "legend_content": "Kearifan lokal di Bedengan tidak hanya bersifat teknis-lingkungan, tetapi juga sangat kental dengan nilai budaya melalui Seni Tradisi Wong Ireng. Kesenian ini merupakan simbol religius dan praktis dari sosok jogowono atau penjaga hutan...",
+        "wisdom": {
+            "title": "Seni Tradisi Wong Ireng & Selametan",
+            "text": "Kearifan lokal di Bedengan tidak hanya bersifat teknis-lingkungan, tetapi juga sangat kental dengan nilai budaya melalui Seni Tradisi Wong Ireng. Kesenian ini merupakan simbol religius dan praktis dari sosok jogowono atau penjaga hutan, di mana setiap pementasannya—terutama saat momentum Bersih Desa di bulan Suro—berfungsi sebagai pengingat sakral bagi masyarakat akan pentingnya menjaga hutan sebagai sumber kehidupan. Melalui alunan gamelan dan tarian yang melibatkan kolektivitas warga, Wong Ireng berhasil memperkuat rasa memiliki (sense of belonging) terhadap alam sekaligus menjadi media edukasi moral tentang nilai gotong royong dalam pelestarian ekosistem.\n\nManifestasi kearifan ini pun berlanjut pada praktik fisik yang selaras dengan nilai filosofis tersebut, seperti tradisi Selametan Sumber dan penanaman pohon secara bersama-sama. Masyarakat Desa Selorejo memandang pelestarian hutan di wilayah Bedengan bukan sekadar kewajiban administratif, melainkan wujud syukur dan tanggung jawab kultural yang diwariskan secara turun-temurun.",
+            "image": "Images/Bedengan/Legend.webp",
+            "credit": {
+                "text": "sekolahkeragaman.id",
+                "url": "https://sekolahkeragaman.id/praktik-baik-pelestarian-hutan-desa-selorejo-kecamatan-dau-kabupaten-malang/"
+            }
+        },
+        "flora": [
+            {
+                "name": "Pohon Pinus",
+                "latin": "",
+                "link": "https://id.wikipedia.org/wiki/Berkas:Hutan_Pinus_Malang_Timur_02.jpg",
+                "image": "Images/Bedengan/Flora/1.webp"
+            },
+            {
+                "name": "Flora",
+                "latin": "",
+                "link": "https://share.google/morOEUrcLojZ2GnnQ",
+                "image": "Images/Bedengan/Flora/2.webp"
+            },
+            {
+                "name": "Paku Ekor Kuda (Horsetails)",
+                "latin": "Equisetum sp.",
+                "link": "https://commons.wikimedia.org/wiki/File:Equisetum_sp._%28horsetails%29_4.jpg",
+                "image": "Images/Bedengan/Flora/3.webp"
+            },
+            {
+                "name": "Flora",
+                "latin": "",
+                "link": "https://share.google/sw7abZgAec95DOfOt",
+                "image": "Images/Bedengan/Flora/4.avif"
+            },
+            {
+                "name": "Jeruk",
+                "latin": "Citrus",
+                "link": "https://timesindonesia.co.id/wisata/507283/menikmati-segarnya-buah-berpadu-alam-pedesaan-di-wisata-petik-jeruk-bedengan",
+                "image": "Images/Bedengan/Flora/5.webp"
+            },
+            {
+                "name": "Kopi Robusta",
+                "latin": "Coffea canephora",
+                "link": "https://pspbsi.unikama.ac.id/id/fakta-unik-kopi-robusta-dampit-yang-mendunia/",
+                "image": "Images/Bedengan/Flora/6.webp"
+            },
+            {
+                "name": "Liken",
+                "latin": "Lichenes",
+                "link": "https://www.shutterstock.com/id/image-photo/liken-on-tree-1039425892",
+                "image": "Images/Bedengan/Flora/7.webp"
+            }
+        ],
+        "fauna": [
+            {
+                "name": "Cekakak jawa",
+                "latin": "Halcyon cyanoventris",
+                "link": "https://id.wikipedia.org/wiki/Cekakak_jawa",
+                "image": "Images/Bedengan/Fauna/1.webp"
+            },
+            {
+                "name": "Bunglon",
+                "latin": "Bronchocela jubata",
+                "link": "https://tunashijau.id/bunglon-si-reptil-yang-mampu-mengubah-warna-tubuh/",
+                "image": "Images/Bedengan/Fauna/2.webp"
+            },
+            {
+                "name": "Capung",
+                "latin": "Anisoptera",
+                "link": "https://bbksdajatim.org/7-fakta-menakjubkan-tentang-capung/",
+                "image": "Images/Bedengan/Fauna/3.webp"
+            },
+            {
+                "name": "Tupai",
+                "latin": "Tupaia",
+                "link": "https://malanghits.pikiran-rakyat.com/animal/pr-3488181170/sejarah-evolusi-dan-perkembangan-binatang-tupai",
+                "image": "Images/Bedengan/Fauna/4.webp"
+            },
+            {
+                "name": "Planaria",
+                "latin": "Planariidae",
+                "link": "https://id.wikipedia.org/wiki/Planaria",
+                "image": "Images/Bedengan/Fauna/5.webp"
+            },
+            {
+                "name": "Hydropsychidae",
+                "latin": "Hydropsychidae",
+                "link": "https://www.macroinvertebrates.org/taxa-info/trichoptera-larva/hydropsychidae",
+                "image": "Images/Bedengan/Fauna/6.webp"
+            }
+        ],
+        "rujukan_flora": [
+            "https://id.wikipedia.org/wiki/Berkas:Hutan_Pinus_Malang_Timur_02.jpg",
+            "https://share.google/morOEUrcLojZ2GnnQ",
+            "https://commons.wikimedia.org/wiki/File:Equisetum_sp._%28horsetails%29_4.jpg",
+            "https://share.google/sw7abZgAec95DOfOt",
+            "https://timesindonesia.co.id/wisata/507283/menikmati-segarnya-buah-berpadu-alam-pedesaan-di-wisata-petik-jeruk-bedengan",
+            "https://pspbsi.unikama.ac.id/id/fakta-unik-kopi-robusta-dampit-yang-mendunia/",
+            "https://www.shutterstock.com/id/image-photo/liken-on-tree-1039425892?dd_referrer=https%3A%2F%2Fwww.google.com%2F"
+        ],
+        "rujukan_fauna": [
+            "https://id.wikipedia.org/wiki/Cekakak_jawa",
+            "https://tunashijau.id/bunglon-si-reptil-yang-mampu-mengubah-warna-tubuh/",
+            "https://bbksdajatim.org/7-fakta-menakjubkan-tentang-capung/",
+            "https://malanghits.pikiran-rakyat.com/animal/pr-3488181170/sejarah-evolusi-dan-perkembangan-binatang-tupai",
+            "https://id.wikipedia.org/wiki/Planaria",
+            "https://www.macroinvertebrates.org/taxa-info/trichoptera-larva/hydropsychidae",
+            "https://www.macroinvertebrates.org/taxa-info/ephemeroptera-larva/baetidae"
+        ]
+    },
+    {
+        "id": "candi-badut",
+        "name": "Candi Badut",
+        "location": "Desa Karang Besuki, Kecamatan Sukun, Malang, Jawa Timur",
+        "map_url": "",
+        "image": "Images/Candi Badut/Thumbnail.webp",
+        "badge": {
+            "text": "Sejarah & Budaya",
+            "icon": "fa-monument",
+            "color": "orange"
+        },
+        "credit": {
+            "text": "",
+            "url": ""
+        },
+        "desc": "Candi Badut merupakan situs arkeologi yang terletak di kaki Gunung Kawi, tepatnya di Desa Karang Besuki, Kecamatan Sukun, Malang.",
+        "deskripsi": "Candi Badut merupakan situs arkeologi yang terletak di kaki Gunung Kawi, tepatnya di Desa Karang Besuki, Kecamatan Sukun, Malang, Jawa Timur. Candi ini ditemukan kembali pada tahun 1923.",
+        "content": "Candi Badut merupakan situs arkeologi yang terletak di kaki Gunung Kawi, tepatnya di Desa Karang Besuki, Kecamatan Sukun, Malang, Jawa Timur. Candi ini ditemukan kembali pada tahun 1923 dan dipugar oleh B. De Haan hingga selesai pada 1926. Hasil pemugaran berhasil mengembalikan bagian kaki dan sebagian besar tubuh candi, meskipun bagian atap tidak dapat direkonstruksi karena kekurangan material. Pemugaran lanjutan dilakukan pada tahun 1990–1992 oleh instansi pelestarian cagar budaya Jawa Timur untuk menyempurnakan struktur dan perawatan teknis.\n\nSejak awal, Candi Badut menjadi perdebatan di kalangan ahli, terutama terkait periodisasinya. Sebagian berpendapat bahwa candi ini termasuk yang tertua di Jawa, berasal dari abad ke-8 Masehi, berdasarkan kesamaan arsitektur dan ragam hias dengan candi di Jawa Tengah serta kaitannya dengan Prasasti Dinoyo (760 M). Pendapat ini didukung oleh De Haan, Bosch, Krom, dan Poerbatjaraka yang juga mengaitkannya dengan Kerajaan Kanjuruhan.\n\nNamun, pandangan lain menyatakan bahwa Candi Badut berasal dari periode lebih muda, yakni akhir abad ke-9 hingga awal abad ke-10. Vogler menilai bukti sebelumnya kurang kuat dan menggunakan pendekatan sejarah seni. Soekmono yang awalnya mendukung periode tua kemudian merevisi pandangannya dan cenderung menempatkan Candi Badut pada masa yang lebih muda berdasarkan kompleksitas ragam hiasnya.",
+        "fun_fact": "",
+        "legend": "Tradisi Selametan & Tasyakuran",
+        "legend_content": "Candi Badut tidak hanya memiliki nilai sejarah, tetapi juga mencerminkan berbagai kearifan lokal yang masih hidup di tengah masyarakat. Salah satunya adalah tradisi selametan atau tasyakuran...",
+        "wisdom": {
+            "title": "Toleransi & Tradisi Selametan",
+            "text": "Candi Badut tidak hanya memiliki nilai sejarah, tetapi juga mencerminkan berbagai kearifan lokal yang masih hidup di tengah masyarakat. Salah satunya adalah tradisi selametan atau tasyakuran yang dilakukan warga sekitar sebagai bentuk rasa syukur dan doa bersama. Tradisi ini biasanya melibatkan kebersamaan masyarakat dengan membawa hasil bumi serta menampilkan kesenian tradisional. Nilai yang terkandung di dalamnya meliputi religiusitas, gotong royong, dan keharmonisan sosial yang menjadi ciri khas budaya Jawa. Selain itu, pada masa lampau Candi Badut berfungsi sebagai tempat pemujaan Dewa Siwa, yang menunjukkan adanya kehidupan spiritual yang kuat serta penghormatan terhadap leluhur dan kekuatan ilahi dalam masyarakat Hindu Kuno.\n\nDi sisi lain, Candi Badut juga mencerminkan nilai toleransi dan akulturasi budaya melalui perpaduan unsur Hindu dan Buddha dalam arsitekturnya. Hal ini menunjukkan kemampuan masyarakat masa lalu dalam menerima dan mengadaptasi pengaruh budaya luar tanpa meninggalkan identitas lokal. Nilai kearifan ini juga berkembang dalam bidang seni, seperti motif batik Malang yang terinspirasi dari relief Kinara-Kinari pada candi. Selain itu, keberadaan candi yang menyatu dengan lingkungan menggambarkan hubungan harmonis antara manusia dan alam. Dengan demikian, Candi Badut tidak hanya menjadi warisan arkeologis, tetapi juga sumber nilai budaya, sosial, dan ekologis yang relevan hingga saat ini.",
+            "image": "Images/Candi Badut/Legend.webp",
+            "credit": {
+                "text": "",
+                "url": ""
+            }
+        },
+        "flora": [
+            {
+                "name": "Pohon Beringin",
+                "latin": "Ficus benjamina",
+                "link": "https://www.batukita.com/2018/12/candi-badut-kota-malang.html",
+                "image": ""
+            },
+            {
+                "name": "Pohon Nangka",
+                "latin": "Artocarpus heterophyllus",
+                "link": "",
+                "image": ""
+            }
+        ],
+        "fauna": [
+            {
+                "name": "Burung Gereja",
+                "latin": "Passeridae",
+                "link": "https://id.wikipedia.org/wiki/Burung_gereja_dunia_baru",
+                "image": ""
+            },
+            {
+                "name": "Kadal Kebun",
+                "latin": "Eutropis multifasciata",
+                "link": "https://id.wikipedia.org/wiki/Kadal_kebun",
+                "image": ""
+            }
+        ],
+        "rujukan_flora": [
+            "https://www.batukita.com/2018/12/candi-badut-kota-malang.html"
+        ],
+        "rujukan_fauna": [
+            "https://id.wikipedia.org/wiki/Burung_gereja_dunia_baru",
+            "https://id.wikipedia.org/wiki/Kadal_kebun"
+        ]
+    },
+    {
+        "id": "coban-pelangi",
+        "name": "Coban Pelangi",
+        "location": "Desa Gubuk Klakah, Kecamatan Poncokusumo, Kabupaten Malang, Jawa Timur",
+        "map_url": "",
+        "image": "Images/Coban Pelangi/Thumbnail.webp",
+        "badge": {
+            "text": "Air Terjun",
+            "icon": "fa-water",
+            "color": "blue"
+        },
+        "credit": {
+            "text": "",
+            "url": ""
+        },
+        "desc": "Coban Pelangi merupakan salah satu air terjun yang terletak di Desa Gubuk Klakah, Kecamatan Poncokusumo, Kabupaten Malang.",
+        "deskripsi": "Coban Pelangi merupakan salah satu air terjun yang terletak di Desa Gubuk Klakah, Kecamatan Poncokusumo, Kabupaten Malang, Jawa Timur, dan berada dalam kawasan Taman Nasional Bromo Tengger Semeru.",
+        "content": "Coban Pelangi merupakan salah satu air terjun yang terletak di Desa Gubuk Klakah, Kecamatan Poncokusumo, Kabupaten Malang, Jawa Timur, dan berada dalam kawasan Taman Nasional Bromo Tengger Semeru. Air terjun ini memiliki ketinggian sekitar 110 meter dan berada pada ketinggian kurang lebih 1.299 meter di atas permukaan laut. Nama “Coban Pelangi” berasal dari fenomena alam yang unik, yaitu munculnya pelangi akibat pembiasan sinar matahari yang mengenai percikan air terjun. Fenomena ini biasanya terlihat jelas pada pagi hingga siang hari, sehingga menjadi daya tarik utama bagi wisatawan. Sejak dahulu, kawasan ini telah dikenal oleh masyarakat lokal dan para pendaki Gunung Semeru karena lokasinya berada di jalur menuju kawasan Bromo dan Semeru.\n\nPada awalnya, Coban Pelangi merupakan kawasan hutan alami yang belum banyak terjamah dan hanya dimanfaatkan secara terbatas oleh masyarakat sekitar. Seiring waktu, potensi keindahan alamnya mulai dikenal luas dan kemudian dikembangkan sebagai kawasan wisata alam oleh Perum Perhutani. Pengelolaan tersebut tetap mempertahankan keaslian lingkungan dengan konsep wisata berbasis alam (ekowisata). Hingga kini, Coban Pelangi menjadi salah satu destinasi wisata unggulan di Malang yang menawarkan keindahan alam, udara sejuk, serta pengalaman wisata yang menyatu dengan alam.",
+        "fun_fact": "",
+        "legend": "Kelestarian Ekologis",
+        "legend_content": "Kearifan lokal di kawasan Coban Pelangi mencerminkan hubungan yang harmonis antara masyarakat dengan alam sekitarnya. Masyarakat sekitar memandang hutan, air terjun, dan sumber air sebagai bagian penting dari kehidupan...",
+        "wisdom": {
+            "title": "Kesadaran Ekologis & Ekonomi Berbasis Komunitas",
+            "text": "Kearifan lokal di kawasan Coban Pelangi mencerminkan hubungan yang harmonis antara masyarakat dengan alam sekitarnya. Masyarakat sekitar memandang hutan, air terjun, dan sumber air sebagai bagian penting dari kehidupan yang harus dijaga kelestariannya. Oleh karena itu, mereka menerapkan prinsip konservasi secara turun-temurun, seperti tidak menebang pohon secara sembarangan dan menjaga kebersihan lingkungan. Nilai ini menunjukkan adanya kesadaran ekologis yang tinggi, di mana alam tidak hanya dimanfaatkan, tetapi juga dilindungi untuk generasi mendatang.\n\nSelain itu, pemanfaatan kawasan Coban Pelangi sebagai objek wisata dilakukan secara bijak dan berkelanjutan. Masyarakat lokal terlibat langsung dalam pengelolaan wisata, seperti menjadi pemandu, membuka usaha kecil, dan menyediakan jasa bagi pengunjung. Hal ini mencerminkan nilai gotong royong dan ekonomi berbasis komunitas. Di sisi lain, terdapat pula kepercayaan budaya yang menganggap alam sebagai sesuatu yang sakral, sehingga pengunjung diharapkan menjaga sikap dan tidak merusak lingkungan. Kearifan lokal ini memperkuat upaya pelestarian alam sekaligus mendukung kesejahteraan masyarakat sekitar melalui pengelolaan wisata yang bertanggung jawab.",
+            "image": "Images/Coban Pelangi/Legend.webp",
+            "credit": {
+                "text": "",
+                "url": ""
+            }
+        },
+        "flora": [
+            {
+                "name": "Anthoceros agrestis",
+                "latin": "Anthocerotaceae",
+                "link": "",
+                "image": ""
+            },
+            {
+                "name": "Bryum argenteum",
+                "latin": "Bryaceae",
+                "link": "",
+                "image": ""
+            },
+            {
+                "name": "Bryum caespiticium",
+                "latin": "Bryaceae",
+                "link": "",
+                "image": ""
+            },
+            {
+                "name": "Funaria sp.",
+                "latin": "Bryaceae",
+                "link": "",
+                "image": ""
+            },
+            {
+                "name": "Schoenobryum sp.",
+                "latin": "Cryphaeaceae",
+                "link": "",
+                "image": ""
+            },
+            {
+                "name": "Fissidens viridulus",
+                "latin": "Fissidentaceae",
+                "link": "",
+                "image": ""
+            },
+            {
+                "name": "Funaria hygrometrica",
+                "latin": "Funariaceae",
+                "link": "",
+                "image": ""
+            },
+            {
+                "name": "Vesicularia montagnei",
+                "latin": "Hypnaceae",
+                "link": "",
+                "image": ""
+            },
+            {
+                "name": "Lejeunea sp.",
+                "latin": "Lejeuneaceae",
+                "link": "",
+                "image": ""
+            },
+            {
+                "name": "Bazzania trilobata",
+                "latin": "Lepidoziaceae",
+                "link": "",
+                "image": ""
+            },
+            {
+                "name": "Dumortiera hirsuta",
+                "latin": "Marchantiaceae",
+                "link": "",
+                "image": ""
+            },
+            {
+                "name": "Marchantia emarginata",
+                "latin": "Marchantiaceae",
+                "link": "",
+                "image": ""
+            },
+            {
+                "name": "Marchantia marginata",
+                "latin": "Marchantiaceae",
+                "link": "",
+                "image": ""
+            },
+            {
+                "name": "Marchantia paleacea",
+                "latin": "Marchantiaceae",
+                "link": "",
+                "image": ""
+            },
+            {
+                "name": "Papillaria sp.",
+                "latin": "Meteoriaceae",
+                "link": "",
+                "image": ""
+            },
+            {
+                "name": "Macromitrium sp.",
+                "latin": "Orthotrichaceae",
+                "link": "",
+                "image": ""
+            },
+            {
+                "name": "Barbura convoluta",
+                "latin": "Pottiaceae",
+                "link": "",
+                "image": ""
+            },
+            {
+                "name": "Polytrichum commune",
+                "latin": "Polytrichaceae",
+                "link": "",
+                "image": ""
+            },
+            {
+                "name": "Racopilum cuspidigerum",
+                "latin": "Racopilaceae",
+                "link": "",
+                "image": ""
+            }
+        ],
+        "fauna": [
+            {
+                "name": "Collared Kingfisher",
+                "latin": "Todiramphus chloris",
+                "link": "https://singaporebirds.com/species/collared-kingfisher/",
+                "image": "Images/Coban Pelangi/Fauna/1.webp"
+            },
+            {
+                "name": "Burung Bondol Haji",
+                "latin": "Lonchura maja",
+                "link": "https://rri.co.id/bengkulu/berita-lain/2183602/mengenal-lebih-dekat-burung-bondol-haji",
+                "image": "Images/Coban Pelangi/Fauna/2.webp"
+            },
+            {
+                "name": "Walet Gunung",
+                "latin": "Collocalia vulcanorum",
+                "link": "https://id.wikipedia.org/wiki/Walet_gunung",
+                "image": "Images/Coban Pelangi/Fauna/3.webp"
+            }
+        ],
+        "rujukan_flora": [],
+        "rujukan_fauna": [
+            "https://singaporebirds.com/species/collared-kingfisher/",
+            "https://rri.co.id/bengkulu/berita-lain/2183602/mengenal-lebih-dekat-burung-bondol-haji",
+            "https://id.wikipedia.org/wiki/Walet_gunung"
+        ]
+    },
+    {
+        "id": "cangar",
+        "name": "Cangar",
+        "location": "Tulungrejo, Sumber Brantas, Bumiaji, Batu City, East Java 65336",
+        "map_url": "",
+        "image": "Images/Cangar/Thumbnail.webp",
+        "badge": {
+            "text": "Pemandian Alam",
+            "icon": "fa-hot-tub",
+            "color": "red"
+        },
+        "credit": {
+            "text": "Niagatour",
+            "url": "https://niagatour.com/pemandian-air-panas-cangar/"
+        },
+        "desc": "Cangar adalah destinasi pemandian air panas yang terletak di Desa Tulungrejo, Kecamatan Bumiaji, Kota Batu.",
+        "deskripsi": "Cangar adalah destinasi pemandian air panas yang terletak di Desa Tulungrejo, Kecamatan Bumiaji, Kota Batu, Jawa Timur.",
+        "content": "Cangar adalah pariwisata di indonesia pemandian air panas yang terletak di Desa Tulungrejo, Kecamatan Bumiaji, Kota Batu, Jawa Timur. Cangar terletak di dalam kawasan Taman Hutan Rakyat R. Soerjo dan banyak ditemukan gua yang dibangun pada masa pendudukan Jepang di sekitar sumber mata air panas. Cangar memiliki sumber mata air yang berasal dari Gunung Welirang. Gunung tersebut memang dikenal menghasilkan belerang. Di sini, terdapat sejumlah objek wisata yang sayang untuk dilewatkan. Keberadaannya di dalam kawasan hutan lindung Taman Hutan Raya menambah keistimewaan Cangar.",
+        "fun_fact": "",
+        "legend": "Goa Jepang",
+        "legend_content": "Goa Jepang merupakan situs bersejarah yang dibangun pada masa penjajahan sebagai gudang logistik untuk menyimpan bahan makanan dan pakaian tentara. Pembangunannya melibatkan ribuan pekerja dari Bondowoso, Lumajang, dan Mojokerto...",
+        "wisdom": {
+            "title": "Sejarah Goa Jepang",
+            "text": "Goa Jepang merupakan situs bersejarah yang dibangun pada masa penjajahan sebagai gudang logistik untuk menyimpan bahan makanan dan pakaian tentara. Pembangunannya melibatkan ribuan pekerja dari Bondowoso, Lumajang, dan Mojokerto yang dikenal dengan istilah Romusa. Dalam perspektif bahasa Jepang saat itu, Romusa dimaknai sebagai \"pekerja pembangunan\"—meskipun mereka bekerja dalam kondisi memprihatinkan dengan pakaian karung goni dan upah serta konsumsi yang tidak layak. Struktur goa ini diperkuat menggunakan penyangga kayu jati yang didatangkan dari hutan sekitar hingga wilayah Mojokerto, Jombang, Kediri, dan Malang.\n\nKeamanan area ini dijaga ketat oleh tentara Kenil, yakni pasukan asal Indonesia yang memihak Jepang. Untuk menjaga kerahasiaan aktivitas logistik mereka, Jepang menjalankan strategi manipulasi psikologis melalui bunyi sirine. Setiap kali pasokan barang akan masuk ke goa, warga sekitar diperintahkan bersembunyi di dalam rumah tanpa penerangan. Penduduk patuh karena adanya propaganda bohong yang menyebarkan ketakutan bahwa sirine tersebut adalah tanda kedatangan tentara Belanda yang akan membunuh siapa pun yang terlihat di luar rumah.",
+            "image": "Images/Cangar/Legend.webp",
+            "credit": {
+                "text": "goajepang.blogspot.com",
+                "url": "http://goajepang.blogspot.com/2012/02/goa-jepang-cangar-kota-wisata-batu.html"
+            }
+        },
+        "flora": [
+            {
+                "name": "Equisetum hyemale",
+                "latin": "Equisetum hyemale",
+                "link": "https://www.gardenia.net/plant/equisetum-hyemale",
+                "image": ""
+            },
+            {
+                "name": "Selaginella willdenowii",
+                "latin": "Selaginella willdenowii",
+                "link": "https://en.wikipedia.org/wiki/Selaginella_willdenowii",
+                "image": ""
+            },
+            {
+                "name": "Asplenium nidus",
+                "latin": "Asplenium nidus",
+                "link": "https://id.wikipedia.org/wiki/Berkas:Asplenium_nidus_21zz.jpg",
+                "image": ""
+            },
+            {
+                "name": "Christella dentata",
+                "latin": "Christella dentata",
+                "link": "https://www.picturethisai.com/id/care/Christella_dentata.html",
+                "image": ""
+            },
+            {
+                "name": "Antrophyum callifolium",
+                "latin": "Antrophyum callifolium",
+                "link": "https://apps.lucidcentral.org/ferns/text/entities/antrophyum_callifolium.htm",
+                "image": ""
+            },
+            {
+                "name": "Cyathea latebrosa",
+                "latin": "Cyathea latebrosa",
+                "link": "https://www.inaturalist.org/taxa/344204-Cyathea-latebrosa",
+                "image": ""
+            }
+        ],
+        "fauna": [
+            {
+                "name": "Tekukur biasa",
+                "latin": "Spilopelia chinensis",
+                "link": "https://id.wikipedia.org/wiki/Tekukur_biasa",
+                "image": ""
+            },
+            {
+                "name": "Indonesian Honeyeater",
+                "latin": "Lichmera limbata",
+                "link": "https://ebird.org/species/indfly1?siteLanguage=in",
+                "image": ""
+            },
+            {
+                "name": "Sooty-headed Bulbul",
+                "latin": "Pycnonotus aurigaster",
+                "link": "https://birdsoftheworld.org/bow/species/sohbul1/cur/introduction?media=photos",
+                "image": ""
+            },
+            {
+                "name": "Orange-bellied Trogon",
+                "latin": "Harpactes oreskios",
+                "link": "https://birdsoftheworld.org/bow/species/orbtro2/cur/introduction",
+                "image": ""
+            },
+            {
+                "name": "Cecak Indo-Pasifik",
+                "latin": "Hemidactylus frenatus",
+                "link": "https://id.wikipedia.org/wiki/Cecak_Indo-Pasifik",
+                "image": ""
+            },
+            {
+                "name": "Green crested lizard",
+                "latin": "Bronchocela cristatella",
+                "link": "https://en.wikipedia.org/wiki/Bronchocela_cristatella",
+                "image": ""
+            },
+            {
+                "name": "Kadal kebun",
+                "latin": "Eutropis multifasciata",
+                "link": "https://id.wikipedia.org/wiki/Kadal_kebun",
+                "image": ""
+            }
+        ],
+        "rujukan_flora": [
+            "https://www.gardenia.net/plant/equisetum-hyemale",
+            "https://en.wikipedia.org/wiki/Selaginella_willdenowii",
+            "https://id.wikipedia.org/wiki/Berkas:Asplenium_nidus_21zz.jpg",
+            "https://www.picturethisai.com/id/care/Christella_dentata.html",
+            "https://apps.lucidcentral.org/ferns/text/entities/antrophyum_callifolium.htm",
+            "https://www.inaturalist.org/taxa/344204-Cyathea-latebrosa"
+        ],
+        "rujukan_fauna": [
+            "https://id.wikipedia.org/wiki/Tekukur_biasa",
+            "https://ebird.org/species/indfly1?siteLanguage=in",
+            "https://birdsoftheworld.org/bow/species/sohbul1/cur/introduction?media=photos",
+            "https://birdsoftheworld.org/bow/species/orbtro2/cur/introduction",
+            "https://id.wikipedia.org/wiki/Cecak_Indo-Pasifik",
+            "https://en.wikipedia.org/wiki/Bronchocela_cristatella",
+            "https://id.wikipedia.org/wiki/Kadal_kebun"
         ]
     }
 ]
