@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style-v1.1.css">
+    <link rel="stylesheet" href="style-v1.2.css">
     <!-- FontAwesome for Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
@@ -53,32 +53,108 @@
         <h3 class="section-label"><i class="fa-solid fa-location-arrow text-blue"></i> Malang Raya</h3>
         <p style="font-size: 0.95rem; line-height: 1.6; color: var(--text-main); margin-bottom: 24px;">EcoMap Malang Raya memetakan potensi wisata ekologis yang kaya akan keanekaragaman hayati (biodiversitas) di bentang alam Malang. Kawasan ini meliputi daerah pegunungan yang sejuk nan subur hingga area pesisir selatan yang memikat.</p>
 
-        <div style="display:flex; flex-direction:column; gap:16px;">
-            <div class="highlight-box" style="padding:16px; align-items:center; background:#f0f9f4; border:1px solid #c8e6c9;">
-                <i class="fa-solid fa-water text-green" style="font-size:2rem; width:40px; text-align:center;"></i>
+        <!-- Kategori Ekosistem -->
+        <h3 class="section-label" style="margin-top: 8px;"><i class="fa-solid fa-layer-group text-green"></i> Kategori Ekosistem</h3>
+        <div style="display:flex; flex-direction:column; gap:12px; margin-bottom: 28px;">
+            <div class="highlight-box" style="padding:14px; align-items:center; background:#f0f9f4; border:1px solid #c8e6c9;">
+                <i class="fa-solid fa-water text-green" style="font-size:1.6rem; width:36px; text-align:center;"></i>
                 <div class="highlight-info">
-                    <h4 style="color:var(--text-main);">Air Terjun & Pegunungan</h4>
-                    <p style="font-size:0.85rem; color:var(--text-muted);">Contoh: Coban Rondo yang berada di ketinggian 1.000+ mdpl, dihuni ragam flora dan fauna sejuk tropis.</p>
+                    <h4 style="color:var(--text-main); font-size:0.95rem;">Air Terjun & Pegunungan</h4>
+                    <p style="font-size:0.82rem; color:var(--text-muted);">Coban Rondo & Coban Pelangi — dihuni ragam flora dan fauna sejuk tropis di ketinggian 1.000+ mdpl.</p>
                 </div>
             </div>
-
-            <div class="highlight-box" style="padding:16px; align-items:center; background:#e3f2fd; border:1px solid #bbdefb;">
-                <i class="fa-solid fa-umbrella-beach text-blue" style="font-size:2rem; width:40px; text-align:center;"></i>
+            <div class="highlight-box" style="padding:14px; align-items:center; background:#e3f2fd; border:1px solid #bbdefb;">
+                <i class="fa-solid fa-umbrella-beach text-blue" style="font-size:1.6rem; width:36px; text-align:center;"></i>
                 <div class="highlight-info">
-                    <h4 style="color:var(--text-main);">Pesisir & Tepi Laut</h4>
-                    <p style="font-size:0.85rem; color:var(--text-muted);">Contoh: Pantai Selok di selatan dengan vegetasi pesisir kuat dan satwa tepi laut intertidal.</p>
+                    <h4 style="color:var(--text-main); font-size:0.95rem;">Pesisir & Tepi Laut</h4>
+                    <p style="font-size:0.82rem; color:var(--text-muted);">Pantai Selok — vegetasi pesisir dan satwa intertidal di selatan Malang.</p>
                 </div>
             </div>
-
-            <div class="highlight-box" style="padding:16px; align-items:center; background:#fff3e0; border:1px solid #ffe0b2;">
-                <i class="fa-solid fa-seedling" style="font-size:2rem; width:40px; text-align:center; color:#e65100;"></i>
+            <div class="highlight-box" style="padding:14px; align-items:center; background:#fff3e0; border:1px solid #ffe0b2;">
+                <i class="fa-solid fa-seedling" style="font-size:1.6rem; width:36px; text-align:center; color:#e65100;"></i>
                 <div class="highlight-info">
-                    <h4 style="color:var(--text-main);">Agrowisata</h4>
-                    <p style="font-size:0.85rem; color:var(--text-muted);">Contoh: Perkebunan teh seperti di Wonosari memiliki ekosistem modifikasi sekaligus endemik serangga agraris.</p>
+                    <h4 style="color:var(--text-main); font-size:0.95rem;">Agrowisata & Perkemahan</h4>
+                    <p style="font-size:0.82rem; color:var(--text-muted);">Kebun Teh Wonosari & Bedengan — ekosistem agraris dan hutan pinus yang asri.</p>
+                </div>
+            </div>
+            <div class="highlight-box" style="padding:14px; align-items:center; background:#fce4ec; border:1px solid #f8bbd0;">
+                <i class="fa-solid fa-monument" style="font-size:1.6rem; width:36px; text-align:center; color:#c62828;"></i>
+                <div class="highlight-info">
+                    <h4 style="color:var(--text-main); font-size:0.95rem;">Sejarah & Pemandian Alam</h4>
+                    <p style="font-size:0.82rem; color:var(--text-muted);">Candi Badut & Cangar — situs warisan sejarah dan pemandian air panas alami.</p>
                 </div>
             </div>
         </div>
+
+        <!-- Daftar Lokasi -->
+        <h3 class="section-label"><i class="fa-solid fa-map-pin text-blue"></i> Daftar Lokasi</h3>
+        <div id="location-list" style="display:flex; flex-direction:column; gap:16px;">
+            <p style="text-align:center; color:var(--text-muted);">Memuat data lokasi...</p>
+        </div>
     </div>
+
+    <script>
+        fetch('database-v1.2.json')
+            .then(r => r.json())
+            .then(data => {
+                const container = document.getElementById('location-list');
+                container.innerHTML = '';
+
+                const badgeColors = {
+                    green: { bg: '#e8f5e9', color: '#2e7d32', border: '#a5d6a7' },
+                    blue: { bg: '#e3f2fd', color: '#1565c0', border: '#90caf9' },
+                    brown: { bg: '#efebe9', color: '#5d4037', border: '#bcaaa4' },
+                    orange: { bg: '#fff3e0', color: '#e65100', border: '#ffcc80' },
+                    teal: { bg: '#e0f2f1', color: '#00796b', border: '#80cbc4' },
+                    red: { bg: '#fce4ec', color: '#c62828', border: '#f8bbd0' }
+                };
+
+                data.forEach(loc => {
+                    const bc = badgeColors[loc.badge.color] || badgeColors.green;
+                    const floraCount = loc.flora ? loc.flora.length : 0;
+                    const faunaCount = loc.fauna ? loc.fauna.length : 0;
+
+                    const card = document.createElement('a');
+                    card.href = `detail.html?id=${loc.id}`;
+                    card.style.cssText = 'text-decoration:none; color:inherit; display:block;';
+                    card.innerHTML = `
+                        <div style="background:#fff; border-radius:16px; overflow:hidden; box-shadow:0 2px 12px rgba(0,0,0,0.08); transition:transform 0.2s, box-shadow 0.2s;">
+                            <div style="position:relative; height:160px; overflow:hidden;">
+                                <img src="${loc.image}" alt="${loc.name}" style="width:100%; height:100%; object-fit:cover;" loading="lazy">
+                                <div style="position:absolute; bottom:10px; left:10px;">
+                                    <span style="background:${bc.bg}; color:${bc.color}; border:1px solid ${bc.border}; font-size:0.72rem; font-weight:600; padding:4px 10px; border-radius:20px; display:inline-flex; align-items:center; gap:5px;">
+                                        <i class="fa-solid ${loc.badge.icon}"></i> ${loc.badge.text}
+                                    </span>
+                                </div>
+                            </div>
+                            <div style="padding:14px 16px 16px;">
+                                <h4 style="font-size:1.05rem; font-weight:700; color:var(--text-main); margin-bottom:4px;">${loc.name}</h4>
+                                <p style="font-size:0.78rem; color:var(--text-muted); margin-bottom:8px; display:flex; align-items:center; gap:5px;">
+                                    <i class="fa-solid fa-location-dot" style="color:#e53935;"></i> ${loc.location}
+                                </p>
+                                <p style="font-size:0.85rem; line-height:1.5; color:var(--text-main); margin-bottom:10px;">${loc.desc}</p>
+                                <div style="display:flex; gap:12px; flex-wrap:wrap;">
+                                    <span style="font-size:0.75rem; color:#2e7d32; background:#e8f5e9; padding:3px 8px; border-radius:8px;"><i class="fa-solid fa-leaf"></i> ${floraCount} Flora</span>
+                                    <span style="font-size:0.75rem; color:#1565c0; background:#e3f2fd; padding:3px 8px; border-radius:8px;"><i class="fa-solid fa-paw"></i> ${faunaCount} Fauna</span>
+                                </div>
+                            </div>
+                        </div>
+                    `;
+                    card.querySelector('div').addEventListener('mouseenter', function() {
+                        this.style.transform = 'translateY(-3px)';
+                        this.style.boxShadow = '0 6px 20px rgba(0,0,0,0.12)';
+                    });
+                    card.querySelector('div').addEventListener('mouseleave', function() {
+                        this.style.transform = 'translateY(0)';
+                        this.style.boxShadow = '0 2px 12px rgba(0,0,0,0.08)';
+                    });
+                    container.appendChild(card);
+                });
+            })
+            .catch(err => {
+                document.getElementById('location-list').innerHTML = '<p style="text-align:center; color:#e53935;">Gagal memuat data lokasi.</p>';
+            });
+    </script>
 
     <!-- Spacer for bottom nav -->
     <div style="height: 80px;"></div>
@@ -105,6 +181,6 @@
 
 </div>
 
-<script src="script-v1.1.js"></script>
+<script src="script-v1.2.js"></script>
 </body>
 </html>
